@@ -185,6 +185,118 @@
 		5F745D4720F01F7E0023AA52 /* snapvector.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C95BBC8178C94D500BD1463 /* snapvector.c */; };
 		5F745D4820F01F8E0023AA52 /* ftola.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C95BBC3178C94D400BD1463 /* ftola.c */; };
 		5F745D4C20F026530023AA52 /* missionpack in Resources */ = {isa = PBXBuildFile; fileRef = 5F745D4B20F026530023AA52 /* missionpack */; };
+		D7A4BEB65FD916553E8576E9 /* Pods_CommonPods_Quake3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3DF3F0DDE36DF9691638F0 /* Pods_CommonPods_Quake3.framework */; };
+		F4FFE500211C325000A2A5A5 /* HyperlootTokenBalance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE475211C325000A2A5A5 /* HyperlootTokenBalance.swift */; };
+		F4FFE501211C325000A2A5A5 /* HyperlootDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE476211C325000A2A5A5 /* HyperlootDemo.swift */; };
+		F4FFE502211C325000A2A5A5 /* WalletProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE478211C325000A2A5A5 /* WalletProvider.swift */; };
+		F4FFE503211C325000A2A5A5 /* WalletUpdatesDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE479211C325000A2A5A5 /* WalletUpdatesDelegate.swift */; };
+		F4FFE504211C325000A2A5A5 /* HyperlootSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE47A211C325000A2A5A5 /* HyperlootSession.swift */; };
+		F4FFE505211C325000A2A5A5 /* HyperlootTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE47C211C325000A2A5A5 /* HyperlootTimer.swift */; };
+		F4FFE506211C325000A2A5A5 /* CurrencyRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE480211C325000A2A5A5 /* CurrencyRate.swift */; };
+		F4FFE507211C325000A2A5A5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE481211C325000A2A5A5 /* Constants.swift */; };
+		F4FFE508211C325000A2A5A5 /* CustomRPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE482211C325000A2A5A5 /* CustomRPC.swift */; };
+		F4FFE509211C325000A2A5A5 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE483211C325000A2A5A5 /* Currency.swift */; };
+		F4FFE50A211C325000A2A5A5 /* RPCServers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE484211C325000A2A5A5 /* RPCServers.swift */; };
+		F4FFE50B211C325000A2A5A5 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE485211C325000A2A5A5 /* Config.swift */; };
+		F4FFE50C211C325000A2A5A5 /* SentTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE488211C325000A2A5A5 /* SentTransaction.swift */; };
+		F4FFE50D211C325000A2A5A5 /* ConfigureTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE489211C325000A2A5A5 /* ConfigureTransaction.swift */; };
+		F4FFE50E211C325000A2A5A5 /* PaymentFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE48A211C325000A2A5A5 /* PaymentFlow.swift */; };
+		F4FFE50F211C325000A2A5A5 /* TransferType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE48B211C325000A2A5A5 /* TransferType.swift */; };
+		F4FFE510211C325000A2A5A5 /* UnconfirmedTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE48C211C325000A2A5A5 /* UnconfirmedTransaction.swift */; };
+		F4FFE511211C325000A2A5A5 /* GasLimitConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE48D211C325000A2A5A5 /* GasLimitConfiguration.swift */; };
+		F4FFE512211C325000A2A5A5 /* BalanceStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE48E211C325000A2A5A5 /* BalanceStatus.swift */; };
+		F4FFE513211C325000A2A5A5 /* CurrencyRate+Fee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE48F211C325000A2A5A5 /* CurrencyRate+Fee.swift */; };
+		F4FFE514211C325000A2A5A5 /* DAppRequster.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE490211C325000A2A5A5 /* DAppRequster.swift */; };
+		F4FFE515211C325000A2A5A5 /* ConfigureTransactionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE491211C325000A2A5A5 /* ConfigureTransactionError.swift */; };
+		F4FFE516211C325000A2A5A5 /* GasPriceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE492211C325000A2A5A5 /* GasPriceConfiguration.swift */; };
+		F4FFE517211C325000A2A5A5 /* TransactionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE493211C325000A2A5A5 /* TransactionConfiguration.swift */; };
+		F4FFE518211C325000A2A5A5 /* TransactionConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE495211C325000A2A5A5 /* TransactionConfigurator.swift */; };
+		F4FFE519211C325000A2A5A5 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE497211C325000A2A5A5 /* Session.swift */; };
+		F4FFE51A211C325000A2A5A5 /* TransactionsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE498211C325000A2A5A5 /* TransactionsStorage.swift */; };
+		F4FFE51B211C325000A2A5A5 /* TokensDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE499211C325000A2A5A5 /* TokensDataStore.swift */; };
+		F4FFE51C211C325000A2A5A5 /* WalletStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE49A211C325000A2A5A5 /* WalletStorage.swift */; };
+		F4FFE51D211C325000A2A5A5 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE49B211C325000A2A5A5 /* Transaction.swift */; };
+		F4FFE51E211C325000A2A5A5 /* TransactionItemState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE49D211C325000A2A5A5 /* TransactionItemState.swift */; };
+		F4FFE51F211C325000A2A5A5 /* BalanceCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE49F211C325000A2A5A5 /* BalanceCoordinator.swift */; };
+		F4FFE520211C325000A2A5A5 /* TrustProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4A0211C325000A2A5A5 /* TrustProvider.swift */; };
+		F4FFE521211C325000A2A5A5 /* LocalizedOperationObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4A1211C325000A2A5A5 /* LocalizedOperationObject.swift */; };
+		F4FFE522211C325000A2A5A5 /* WalletInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4A3211C325000A2A5A5 /* WalletInfo.swift */; };
+		F4FFE523211C325000A2A5A5 /* WalletEntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4A4211C325000A2A5A5 /* WalletEntryPoint.swift */; };
+		F4FFE524211C325000A2A5A5 /* WalletObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4A5211C325000A2A5A5 /* WalletObject.swift */; };
+		F4FFE525211C325000A2A5A5 /* NonFungibleTokenCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4A7211C325000A2A5A5 /* NonFungibleTokenCategory.swift */; };
+		F4FFE526211C325000A2A5A5 /* NonFungibleTokenObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4A8211C325000A2A5A5 /* NonFungibleTokenObject.swift */; };
+		F4FFE527211C325000A2A5A5 /* TokenBalanceOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4A9211C325000A2A5A5 /* TokenBalanceOperation.swift */; };
+		F4FFE528211C325000A2A5A5 /* TokenObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4AA211C325000A2A5A5 /* TokenObject.swift */; };
+		F4FFE529211C325000A2A5A5 /* CoinTicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4AB211C325000A2A5A5 /* CoinTicker.swift */; };
+		F4FFE52A211C325000A2A5A5 /* ERC20Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4AC211C325000A2A5A5 /* ERC20Token.swift */; };
+		F4FFE52B211C325000A2A5A5 /* TrustRealmConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4AF211C325000A2A5A5 /* TrustRealmConfiguration.swift */; };
+		F4FFE52C211C325000A2A5A5 /* TrustNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4B1211C325000A2A5A5 /* TrustNetwork.swift */; };
+		F4FFE52D211C325000A2A5A5 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4B3211C325000A2A5A5 /* CurrencyFormatter.swift */; };
+		F4FFE52E211C325000A2A5A5 /* SharedMigrationInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4B5211C325000A2A5A5 /* SharedMigrationInitializer.swift */; };
+		F4FFE52F211C325000A2A5A5 /* MirgrationInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4B6211C325000A2A5A5 /* MirgrationInitializer.swift */; };
+		F4FFE530211C325000A2A5A5 /* Initializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4B7211C325000A2A5A5 /* Initializer.swift */; };
+		F4FFE531211C325000A2A5A5 /* CastError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4B9211C325000A2A5A5 /* CastError.swift */; };
+		F4FFE532211C325000A2A5A5 /* KeyStoreError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4BA211C325000A2A5A5 /* KeyStoreError.swift */; };
+		F4FFE533211C325000A2A5A5 /* ENSRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4BC211C325000A2A5A5 /* ENSRecord.swift */; };
+		F4FFE534211C325000A2A5A5 /* ENSStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4BD211C325000A2A5A5 /* ENSStore.swift */; };
+		F4FFE535211C325000A2A5A5 /* ENSClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4BE211C325000A2A5A5 /* ENSClient.swift */; };
+		F4FFE536211C325000A2A5A5 /* ENSManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4BF211C325000A2A5A5 /* ENSManager.swift */; };
+		F4FFE537211C325000A2A5A5 /* EthTypedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4C1211C325000A2A5A5 /* EthTypedData.swift */; };
+		F4FFE538211C325000A2A5A5 /* WalletType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4C2211C325000A2A5A5 /* WalletType.swift */; };
+		F4FFE539211C325000A2A5A5 /* Keystore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4C3211C325000A2A5A5 /* Keystore.swift */; };
+		F4FFE53A211C325000A2A5A5 /* GetNonceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4C6211C325000A2A5A5 /* GetNonceProvider.swift */; };
+		F4FFE53B211C325000A2A5A5 /* NonceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4C8211C325000A2A5A5 /* NonceProvider.swift */; };
+		F4FFE53C211C325000A2A5A5 /* ChainState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4C9211C325000A2A5A5 /* ChainState.swift */; };
+		F4FFE53D211C325000A2A5A5 /* bignumber.min.js in Resources */ = {isa = PBXBuildFile; fileRef = F4FFE4CA211C325000A2A5A5 /* bignumber.min.js */; };
+		F4FFE53E211C325000A2A5A5 /* GetTransactionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4CC211C325000A2A5A5 /* GetTransactionRequest.swift */; };
+		F4FFE53F211C325000A2A5A5 /* GetTransactionReceiptRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4CD211C325000A2A5A5 /* GetTransactionReceiptRequest.swift */; };
+		F4FFE540211C325000A2A5A5 /* EstimateGasRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4CE211C325000A2A5A5 /* EstimateGasRequest.swift */; };
+		F4FFE541211C325000A2A5A5 /* GasPriceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4CF211C325000A2A5A5 /* GasPriceRequest.swift */; };
+		F4FFE542211C325000A2A5A5 /* CallRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4D0211C325000A2A5A5 /* CallRequest.swift */; };
+		F4FFE543211C325000A2A5A5 /* GetTransactionCountRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4D1211C325000A2A5A5 /* GetTransactionCountRequest.swift */; };
+		F4FFE544211C325000A2A5A5 /* SendRawTransactionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4D2211C325000A2A5A5 /* SendRawTransactionRequest.swift */; };
+		F4FFE545211C325000A2A5A5 /* BlockNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4D3211C325000A2A5A5 /* BlockNumber.swift */; };
+		F4FFE546211C325000A2A5A5 /* BalanceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4D4211C325000A2A5A5 /* BalanceRequest.swift */; };
+		F4FFE547211C325000A2A5A5 /* ImportType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4D5211C325000A2A5A5 /* ImportType.swift */; };
+		F4FFE548211C325000A2A5A5 /* EtherServiceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4D6211C325000A2A5A5 /* EtherServiceRequest.swift */; };
+		F4FFE549211C325000A2A5A5 /* EtherKeystore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4D7211C325000A2A5A5 /* EtherKeystore.swift */; };
+		F4FFE54A211C325000A2A5A5 /* PasswordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4D8211C325000A2A5A5 /* PasswordGenerator.swift */; };
+		F4FFE54B211C325000A2A5A5 /* TrustAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4DA211C325000A2A5A5 /* TrustAPI.swift */; };
+		F4FFE54C211C325000A2A5A5 /* TrustClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4DB211C325000A2A5A5 /* TrustClient.swift */; };
+		F4FFE54D211C325000A2A5A5 /* OperationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4DD211C325000A2A5A5 /* OperationType.swift */; };
+		F4FFE54E211C325000A2A5A5 /* ArrayResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4DE211C325000A2A5A5 /* ArrayResponse.swift */; };
+		F4FFE54F211C325000A2A5A5 /* ERC20Contract.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4DF211C325000A2A5A5 /* ERC20Contract.swift */; };
+		F4FFE550211C325000A2A5A5 /* TransactionSigning.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4E0211C325000A2A5A5 /* TransactionSigning.swift */; };
+		F4FFE551211C325000A2A5A5 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4E1211C325000A2A5A5 /* Wallet.swift */; };
+		F4FFE552211C325000A2A5A5 /* EtherNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4E3211C325000A2A5A5 /* EtherNumberFormatter.swift */; };
+		F4FFE553211C325000A2A5A5 /* QRGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4E4211C325000A2A5A5 /* QRGenerator.swift */; };
+		F4FFE554211C325000A2A5A5 /* QRURLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4E5211C325000A2A5A5 /* QRURLParser.swift */; };
+		F4FFE555211C325000A2A5A5 /* TrustOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4E6211C325000A2A5A5 /* TrustOperation.swift */; };
+		F4FFE556211C325000A2A5A5 /* Subscribable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4E7211C325000A2A5A5 /* Subscribable.swift */; };
+		F4FFE557211C325000A2A5A5 /* CryptoAddressValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4E8211C325000A2A5A5 /* CryptoAddressValidator.swift */; };
+		F4FFE558211C325000A2A5A5 /* DecimalFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4E9211C325000A2A5A5 /* DecimalFormatter.swift */; };
+		F4FFE559211C325000A2A5A5 /* TrustNetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4EA211C325000A2A5A5 /* TrustNetworkProtocol.swift */; };
+		F4FFE55A211C325000A2A5A5 /* StringFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4EB211C325000A2A5A5 /* StringFormatter.swift */; };
+		F4FFE55B211C325000A2A5A5 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4EC211C325000A2A5A5 /* Coordinator.swift */; };
+		F4FFE55C211C325000A2A5A5 /* EthereumUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4EE211C325000A2A5A5 /* EthereumUnit.swift */; };
+		F4FFE55D211C325000A2A5A5 /* SignTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4EF211C325000A2A5A5 /* SignTransaction.swift */; };
+		F4FFE55E211C325000A2A5A5 /* BalanceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4F0211C325000A2A5A5 /* BalanceProtocol.swift */; };
+		F4FFE55F211C325000A2A5A5 /* Balance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4F1211C325000A2A5A5 /* Balance.swift */; };
+		F4FFE560211C325000A2A5A5 /* PendingTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4F2211C325000A2A5A5 /* PendingTransaction.swift */; };
+		F4FFE561211C325000A2A5A5 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4F3211C325000A2A5A5 /* Token.swift */; };
+		F4FFE562211C325000A2A5A5 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4F5211C325000A2A5A5 /* Address.swift */; };
+		F4FFE563211C325000A2A5A5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4F6211C325000A2A5A5 /* Data.swift */; };
+		F4FFE564211C325000A2A5A5 /* Decimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4F7211C325000A2A5A5 /* Decimal.swift */; };
+		F4FFE565211C325000A2A5A5 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4F8211C325000A2A5A5 /* NSObject.swift */; };
+		F4FFE566211C325000A2A5A5 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4F9211C325000A2A5A5 /* Dictionary.swift */; };
+		F4FFE567211C325000A2A5A5 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4FA211C325000A2A5A5 /* String.swift */; };
+		F4FFE568211C325000A2A5A5 /* Realm+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4FB211C325000A2A5A5 /* Realm+Extensions.swift */; };
+		F4FFE569211C325000A2A5A5 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4FC211C325000A2A5A5 /* Bundle.swift */; };
+		F4FFE56A211C325000A2A5A5 /* BigInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4FD211C325000A2A5A5 /* BigInt.swift */; };
+		F4FFE56B211C325000A2A5A5 /* TokensBalanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE4FF211C325000A2A5A5 /* TokensBalanceService.swift */; };
+		F4FFE56E211CF98200A2A5A5 /* HyperlootManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE56D211CF98200A2A5A5 /* HyperlootManager.m */; };
+		F4FFE571211D07C800A2A5A5 /* Q3TokenItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE570211D07C800A2A5A5 /* Q3TokenItem.swift */; };
+		F4FFE578211D987F00A2A5A5 /* HyperlootWeapons.c in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE577211D987F00A2A5A5 /* HyperlootWeapons.c */; };
 		FD05A01913C1B8D70038165B /* ios_snddma.c in Sources */ = {isa = PBXBuildFile; fileRef = FD05A01813C1B8D70038165B /* ios_snddma.c */; };
 		FD05A0CD13C1CAAA0038165B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD05A0CC13C1CAAA0038165B /* AudioToolbox.framework */; };
 		FD1E69480E6FC951004A4AC6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD1E69470E6FC951004A4AC6 /* Icon.png */; };
@@ -208,10 +320,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12221B13D73547BFC2FC7818 /* Pods-CommonPods-Quake3.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPods-Quake3.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-CommonPods-Quake3/Pods-CommonPods-Quake3.distribution.xcconfig"; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* Quake3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quake3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		245CBA80E8965D8E021A7069 /* Pods-CommonPods-Quake3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPods-Quake3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CommonPods-Quake3/Pods-CommonPods-Quake3.debug.xcconfig"; sourceTree = "<group>"; };
 		2C03759D179370380004B110 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		2C03759F1793705C0004B110 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		2C1D87EA178F6D7300E3AE41 /* baseq3 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = baseq3; sourceTree = "<group>"; };
@@ -716,12 +830,127 @@
 		2CB366FF177A0EFE000C041F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2CB36701177A0EFE000C041F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2CB36703177A0EFE000C041F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4D3DF3F0DDE36DF9691638F0 /* Pods_CommonPods_Quake3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonPods_Quake3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F745D3F20F01D500023AA52 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		5F745D4020F01D500023AA52 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		5F745D4120F01D500023AA52 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		5F745D4220F01D500023AA52 /* Quake3AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quake3AppDelegate.h; sourceTree = "<group>"; };
 		5F745D4320F01D500023AA52 /* Quake3AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quake3AppDelegate.m; sourceTree = "<group>"; };
 		5F745D4B20F026530023AA52 /* missionpack */ = {isa = PBXFileReference; lastKnownFileType = folder; path = missionpack; sourceTree = "<group>"; };
+		B8BE78D2A36075CE14FC9A02 /* Pods-CommonPods-Quake3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPods-Quake3.release.xcconfig"; path = "Pods/Target Support Files/Pods-CommonPods-Quake3/Pods-CommonPods-Quake3.release.xcconfig"; sourceTree = "<group>"; };
+		F4FFE475211C325000A2A5A5 /* HyperlootTokenBalance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HyperlootTokenBalance.swift; sourceTree = "<group>"; };
+		F4FFE476211C325000A2A5A5 /* HyperlootDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HyperlootDemo.swift; sourceTree = "<group>"; };
+		F4FFE478211C325000A2A5A5 /* WalletProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletProvider.swift; sourceTree = "<group>"; };
+		F4FFE479211C325000A2A5A5 /* WalletUpdatesDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletUpdatesDelegate.swift; sourceTree = "<group>"; };
+		F4FFE47A211C325000A2A5A5 /* HyperlootSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HyperlootSession.swift; sourceTree = "<group>"; };
+		F4FFE47C211C325000A2A5A5 /* HyperlootTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HyperlootTimer.swift; sourceTree = "<group>"; };
+		F4FFE480211C325000A2A5A5 /* CurrencyRate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyRate.swift; sourceTree = "<group>"; };
+		F4FFE481211C325000A2A5A5 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F4FFE482211C325000A2A5A5 /* CustomRPC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomRPC.swift; sourceTree = "<group>"; };
+		F4FFE483211C325000A2A5A5 /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		F4FFE484211C325000A2A5A5 /* RPCServers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPCServers.swift; sourceTree = "<group>"; };
+		F4FFE485211C325000A2A5A5 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		F4FFE488211C325000A2A5A5 /* SentTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SentTransaction.swift; sourceTree = "<group>"; };
+		F4FFE489211C325000A2A5A5 /* ConfigureTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigureTransaction.swift; sourceTree = "<group>"; };
+		F4FFE48A211C325000A2A5A5 /* PaymentFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentFlow.swift; sourceTree = "<group>"; };
+		F4FFE48B211C325000A2A5A5 /* TransferType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferType.swift; sourceTree = "<group>"; };
+		F4FFE48C211C325000A2A5A5 /* UnconfirmedTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnconfirmedTransaction.swift; sourceTree = "<group>"; };
+		F4FFE48D211C325000A2A5A5 /* GasLimitConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GasLimitConfiguration.swift; sourceTree = "<group>"; };
+		F4FFE48E211C325000A2A5A5 /* BalanceStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceStatus.swift; sourceTree = "<group>"; };
+		F4FFE48F211C325000A2A5A5 /* CurrencyRate+Fee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CurrencyRate+Fee.swift"; sourceTree = "<group>"; };
+		F4FFE490211C325000A2A5A5 /* DAppRequster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DAppRequster.swift; sourceTree = "<group>"; };
+		F4FFE491211C325000A2A5A5 /* ConfigureTransactionError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigureTransactionError.swift; sourceTree = "<group>"; };
+		F4FFE492211C325000A2A5A5 /* GasPriceConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GasPriceConfiguration.swift; sourceTree = "<group>"; };
+		F4FFE493211C325000A2A5A5 /* TransactionConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionConfiguration.swift; sourceTree = "<group>"; };
+		F4FFE495211C325000A2A5A5 /* TransactionConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionConfigurator.swift; sourceTree = "<group>"; };
+		F4FFE497211C325000A2A5A5 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		F4FFE498211C325000A2A5A5 /* TransactionsStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsStorage.swift; sourceTree = "<group>"; };
+		F4FFE499211C325000A2A5A5 /* TokensDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokensDataStore.swift; sourceTree = "<group>"; };
+		F4FFE49A211C325000A2A5A5 /* WalletStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletStorage.swift; sourceTree = "<group>"; };
+		F4FFE49B211C325000A2A5A5 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		F4FFE49D211C325000A2A5A5 /* TransactionItemState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionItemState.swift; sourceTree = "<group>"; };
+		F4FFE49F211C325000A2A5A5 /* BalanceCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceCoordinator.swift; sourceTree = "<group>"; };
+		F4FFE4A0211C325000A2A5A5 /* TrustProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrustProvider.swift; sourceTree = "<group>"; };
+		F4FFE4A1211C325000A2A5A5 /* LocalizedOperationObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedOperationObject.swift; sourceTree = "<group>"; };
+		F4FFE4A3211C325000A2A5A5 /* WalletInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletInfo.swift; sourceTree = "<group>"; };
+		F4FFE4A4211C325000A2A5A5 /* WalletEntryPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletEntryPoint.swift; sourceTree = "<group>"; };
+		F4FFE4A5211C325000A2A5A5 /* WalletObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletObject.swift; sourceTree = "<group>"; };
+		F4FFE4A7211C325000A2A5A5 /* NonFungibleTokenCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonFungibleTokenCategory.swift; sourceTree = "<group>"; };
+		F4FFE4A8211C325000A2A5A5 /* NonFungibleTokenObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonFungibleTokenObject.swift; sourceTree = "<group>"; };
+		F4FFE4A9211C325000A2A5A5 /* TokenBalanceOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenBalanceOperation.swift; sourceTree = "<group>"; };
+		F4FFE4AA211C325000A2A5A5 /* TokenObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenObject.swift; sourceTree = "<group>"; };
+		F4FFE4AB211C325000A2A5A5 /* CoinTicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinTicker.swift; sourceTree = "<group>"; };
+		F4FFE4AC211C325000A2A5A5 /* ERC20Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ERC20Token.swift; sourceTree = "<group>"; };
+		F4FFE4AF211C325000A2A5A5 /* TrustRealmConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrustRealmConfiguration.swift; sourceTree = "<group>"; };
+		F4FFE4B1211C325000A2A5A5 /* TrustNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrustNetwork.swift; sourceTree = "<group>"; };
+		F4FFE4B3211C325000A2A5A5 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
+		F4FFE4B5211C325000A2A5A5 /* SharedMigrationInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedMigrationInitializer.swift; sourceTree = "<group>"; };
+		F4FFE4B6211C325000A2A5A5 /* MirgrationInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MirgrationInitializer.swift; sourceTree = "<group>"; };
+		F4FFE4B7211C325000A2A5A5 /* Initializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Initializer.swift; sourceTree = "<group>"; };
+		F4FFE4B9211C325000A2A5A5 /* CastError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastError.swift; sourceTree = "<group>"; };
+		F4FFE4BA211C325000A2A5A5 /* KeyStoreError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyStoreError.swift; sourceTree = "<group>"; };
+		F4FFE4BC211C325000A2A5A5 /* ENSRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSRecord.swift; sourceTree = "<group>"; };
+		F4FFE4BD211C325000A2A5A5 /* ENSStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSStore.swift; sourceTree = "<group>"; };
+		F4FFE4BE211C325000A2A5A5 /* ENSClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSClient.swift; sourceTree = "<group>"; };
+		F4FFE4BF211C325000A2A5A5 /* ENSManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSManager.swift; sourceTree = "<group>"; };
+		F4FFE4C1211C325000A2A5A5 /* EthTypedData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EthTypedData.swift; sourceTree = "<group>"; };
+		F4FFE4C2211C325000A2A5A5 /* WalletType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletType.swift; sourceTree = "<group>"; };
+		F4FFE4C3211C325000A2A5A5 /* Keystore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keystore.swift; sourceTree = "<group>"; };
+		F4FFE4C6211C325000A2A5A5 /* GetNonceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetNonceProvider.swift; sourceTree = "<group>"; };
+		F4FFE4C8211C325000A2A5A5 /* NonceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonceProvider.swift; sourceTree = "<group>"; };
+		F4FFE4C9211C325000A2A5A5 /* ChainState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainState.swift; sourceTree = "<group>"; };
+		F4FFE4CA211C325000A2A5A5 /* bignumber.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bignumber.min.js; sourceTree = "<group>"; };
+		F4FFE4CC211C325000A2A5A5 /* GetTransactionRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTransactionRequest.swift; sourceTree = "<group>"; };
+		F4FFE4CD211C325000A2A5A5 /* GetTransactionReceiptRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTransactionReceiptRequest.swift; sourceTree = "<group>"; };
+		F4FFE4CE211C325000A2A5A5 /* EstimateGasRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EstimateGasRequest.swift; sourceTree = "<group>"; };
+		F4FFE4CF211C325000A2A5A5 /* GasPriceRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GasPriceRequest.swift; sourceTree = "<group>"; };
+		F4FFE4D0211C325000A2A5A5 /* CallRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallRequest.swift; sourceTree = "<group>"; };
+		F4FFE4D1211C325000A2A5A5 /* GetTransactionCountRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTransactionCountRequest.swift; sourceTree = "<group>"; };
+		F4FFE4D2211C325000A2A5A5 /* SendRawTransactionRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendRawTransactionRequest.swift; sourceTree = "<group>"; };
+		F4FFE4D3211C325000A2A5A5 /* BlockNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockNumber.swift; sourceTree = "<group>"; };
+		F4FFE4D4211C325000A2A5A5 /* BalanceRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceRequest.swift; sourceTree = "<group>"; };
+		F4FFE4D5211C325000A2A5A5 /* ImportType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportType.swift; sourceTree = "<group>"; };
+		F4FFE4D6211C325000A2A5A5 /* EtherServiceRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtherServiceRequest.swift; sourceTree = "<group>"; };
+		F4FFE4D7211C325000A2A5A5 /* EtherKeystore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtherKeystore.swift; sourceTree = "<group>"; };
+		F4FFE4D8211C325000A2A5A5 /* PasswordGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordGenerator.swift; sourceTree = "<group>"; };
+		F4FFE4DA211C325000A2A5A5 /* TrustAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrustAPI.swift; sourceTree = "<group>"; };
+		F4FFE4DB211C325000A2A5A5 /* TrustClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrustClient.swift; sourceTree = "<group>"; };
+		F4FFE4DD211C325000A2A5A5 /* OperationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationType.swift; sourceTree = "<group>"; };
+		F4FFE4DE211C325000A2A5A5 /* ArrayResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayResponse.swift; sourceTree = "<group>"; };
+		F4FFE4DF211C325000A2A5A5 /* ERC20Contract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ERC20Contract.swift; sourceTree = "<group>"; };
+		F4FFE4E0211C325000A2A5A5 /* TransactionSigning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionSigning.swift; sourceTree = "<group>"; };
+		F4FFE4E1211C325000A2A5A5 /* Wallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		F4FFE4E3211C325000A2A5A5 /* EtherNumberFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtherNumberFormatter.swift; sourceTree = "<group>"; };
+		F4FFE4E4211C325000A2A5A5 /* QRGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRGenerator.swift; sourceTree = "<group>"; };
+		F4FFE4E5211C325000A2A5A5 /* QRURLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRURLParser.swift; sourceTree = "<group>"; };
+		F4FFE4E6211C325000A2A5A5 /* TrustOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrustOperation.swift; sourceTree = "<group>"; };
+		F4FFE4E7211C325000A2A5A5 /* Subscribable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscribable.swift; sourceTree = "<group>"; };
+		F4FFE4E8211C325000A2A5A5 /* CryptoAddressValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoAddressValidator.swift; sourceTree = "<group>"; };
+		F4FFE4E9211C325000A2A5A5 /* DecimalFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecimalFormatter.swift; sourceTree = "<group>"; };
+		F4FFE4EA211C325000A2A5A5 /* TrustNetworkProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrustNetworkProtocol.swift; sourceTree = "<group>"; };
+		F4FFE4EB211C325000A2A5A5 /* StringFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringFormatter.swift; sourceTree = "<group>"; };
+		F4FFE4EC211C325000A2A5A5 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		F4FFE4EE211C325000A2A5A5 /* EthereumUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EthereumUnit.swift; sourceTree = "<group>"; };
+		F4FFE4EF211C325000A2A5A5 /* SignTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignTransaction.swift; sourceTree = "<group>"; };
+		F4FFE4F0211C325000A2A5A5 /* BalanceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceProtocol.swift; sourceTree = "<group>"; };
+		F4FFE4F1211C325000A2A5A5 /* Balance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Balance.swift; sourceTree = "<group>"; };
+		F4FFE4F2211C325000A2A5A5 /* PendingTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingTransaction.swift; sourceTree = "<group>"; };
+		F4FFE4F3211C325000A2A5A5 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		F4FFE4F5211C325000A2A5A5 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		F4FFE4F6211C325000A2A5A5 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		F4FFE4F7211C325000A2A5A5 /* Decimal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decimal.swift; sourceTree = "<group>"; };
+		F4FFE4F8211C325000A2A5A5 /* NSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
+		F4FFE4F9211C325000A2A5A5 /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		F4FFE4FA211C325000A2A5A5 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		F4FFE4FB211C325000A2A5A5 /* Realm+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Realm+Extensions.swift"; sourceTree = "<group>"; };
+		F4FFE4FC211C325000A2A5A5 /* Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		F4FFE4FD211C325000A2A5A5 /* BigInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigInt.swift; sourceTree = "<group>"; };
+		F4FFE4FF211C325000A2A5A5 /* TokensBalanceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokensBalanceService.swift; sourceTree = "<group>"; };
+		F4FFE56C211CF98200A2A5A5 /* HyperlootManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HyperlootManager.h; sourceTree = "<group>"; };
+		F4FFE56D211CF98200A2A5A5 /* HyperlootManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HyperlootManager.m; sourceTree = "<group>"; };
+		F4FFE570211D07C800A2A5A5 /* Q3TokenItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q3TokenItem.swift; sourceTree = "<group>"; };
+		F4FFE576211D987F00A2A5A5 /* HyperlootWeapons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HyperlootWeapons.h; sourceTree = "<group>"; };
+		F4FFE577211D987F00A2A5A5 /* HyperlootWeapons.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HyperlootWeapons.c; sourceTree = "<group>"; };
 		FD05A01813C1B8D70038165B /* ios_snddma.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; lineEnding = 0; path = ios_snddma.c; sourceTree = "<group>"; tabWidth = 4; };
 		FD05A0CC13C1CAAA0038165B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		FD1E69470E6FC951004A4AC6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
@@ -767,6 +996,7 @@
 				FD05A0CD13C1CAAA0038165B /* AudioToolbox.framework in Frameworks */,
 				2C7CF87617948CCA00D31BA8 /* libcurl-simulator.a in Frameworks */,
 				2C7CF87717948CCA00D31BA8 /* libcurl.a in Frameworks */,
+				D7A4BEB65FD916553E8576E9 /* Pods_CommonPods_Quake3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -835,10 +1065,12 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				F4FFE472211C325000A2A5A5 /* Hyperloot */,
 				080E96DDFE201D6D7F000001 /* Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				99CB41C1C25BA8D17C7EDD8E /* Pods */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -874,6 +1106,7 @@
 				2CB36701177A0EFE000C041F /* Foundation.framework */,
 				2CB36703177A0EFE000C041F /* CoreGraphics.framework */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+				4D3DF3F0DDE36DF9691638F0 /* Pods_CommonPods_Quake3.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1545,9 +1778,411 @@
 			path = zlib;
 			sourceTree = "<group>";
 		};
+		99CB41C1C25BA8D17C7EDD8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				245CBA80E8965D8E021A7069 /* Pods-CommonPods-Quake3.debug.xcconfig */,
+				B8BE78D2A36075CE14FC9A02 /* Pods-CommonPods-Quake3.release.xcconfig */,
+				12221B13D73547BFC2FC7818 /* Pods-CommonPods-Quake3.distribution.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4FFE472211C325000A2A5A5 /* Hyperloot */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE473211C325000A2A5A5 /* HyperlootDemo */,
+				F4FFE47D211C325000A2A5A5 /* TrustWallet */,
+			);
+			path = Hyperloot;
+			sourceTree = "<group>";
+		};
+		F4FFE473211C325000A2A5A5 /* HyperlootDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE474211C325000A2A5A5 /* Models */,
+				F4FFE476211C325000A2A5A5 /* HyperlootDemo.swift */,
+				F4FFE477211C325000A2A5A5 /* Wallet */,
+				F4FFE47A211C325000A2A5A5 /* HyperlootSession.swift */,
+				F4FFE47B211C325000A2A5A5 /* Helpers */,
+			);
+			path = HyperlootDemo;
+			sourceTree = "<group>";
+		};
+		F4FFE474211C325000A2A5A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE475211C325000A2A5A5 /* HyperlootTokenBalance.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F4FFE477211C325000A2A5A5 /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE478211C325000A2A5A5 /* WalletProvider.swift */,
+				F4FFE479211C325000A2A5A5 /* WalletUpdatesDelegate.swift */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		F4FFE47B211C325000A2A5A5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE47C211C325000A2A5A5 /* HyperlootTimer.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F4FFE47D211C325000A2A5A5 /* TrustWallet */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE47E211C325000A2A5A5 /* Types */,
+				F4FFE4AD211C325000A2A5A5 /* Core */,
+				F4FFE4B8211C325000A2A5A5 /* EtherClient */,
+				F4FFE4E2211C325000A2A5A5 /* Foundation */,
+				F4FFE4ED211C325000A2A5A5 /* Models */,
+				F4FFE4F4211C325000A2A5A5 /* Extensions */,
+				F4FFE4FE211C325000A2A5A5 /* Services */,
+			);
+			path = TrustWallet;
+			sourceTree = "<group>";
+		};
+		F4FFE47E211C325000A2A5A5 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE47F211C325000A2A5A5 /* Core */,
+				F4FFE486211C325000A2A5A5 /* Transfer */,
+				F4FFE496211C325000A2A5A5 /* Storage */,
+				F4FFE49C211C325000A2A5A5 /* Transactions */,
+				F4FFE4A2211C325000A2A5A5 /* Wallet */,
+				F4FFE4A6211C325000A2A5A5 /* Tokens */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		F4FFE47F211C325000A2A5A5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE480211C325000A2A5A5 /* CurrencyRate.swift */,
+				F4FFE481211C325000A2A5A5 /* Constants.swift */,
+				F4FFE482211C325000A2A5A5 /* CustomRPC.swift */,
+				F4FFE483211C325000A2A5A5 /* Currency.swift */,
+				F4FFE484211C325000A2A5A5 /* RPCServers.swift */,
+				F4FFE485211C325000A2A5A5 /* Config.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F4FFE486211C325000A2A5A5 /* Transfer */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE487211C325000A2A5A5 /* Types */,
+				F4FFE494211C325000A2A5A5 /* Controllers */,
+			);
+			path = Transfer;
+			sourceTree = "<group>";
+		};
+		F4FFE487211C325000A2A5A5 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE488211C325000A2A5A5 /* SentTransaction.swift */,
+				F4FFE489211C325000A2A5A5 /* ConfigureTransaction.swift */,
+				F4FFE48A211C325000A2A5A5 /* PaymentFlow.swift */,
+				F4FFE48B211C325000A2A5A5 /* TransferType.swift */,
+				F4FFE48C211C325000A2A5A5 /* UnconfirmedTransaction.swift */,
+				F4FFE48D211C325000A2A5A5 /* GasLimitConfiguration.swift */,
+				F4FFE48E211C325000A2A5A5 /* BalanceStatus.swift */,
+				F4FFE48F211C325000A2A5A5 /* CurrencyRate+Fee.swift */,
+				F4FFE490211C325000A2A5A5 /* DAppRequster.swift */,
+				F4FFE491211C325000A2A5A5 /* ConfigureTransactionError.swift */,
+				F4FFE492211C325000A2A5A5 /* GasPriceConfiguration.swift */,
+				F4FFE493211C325000A2A5A5 /* TransactionConfiguration.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		F4FFE494211C325000A2A5A5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE495211C325000A2A5A5 /* TransactionConfigurator.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F4FFE496211C325000A2A5A5 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE497211C325000A2A5A5 /* Session.swift */,
+				F4FFE498211C325000A2A5A5 /* TransactionsStorage.swift */,
+				F4FFE499211C325000A2A5A5 /* TokensDataStore.swift */,
+				F4FFE49A211C325000A2A5A5 /* WalletStorage.swift */,
+				F4FFE49B211C325000A2A5A5 /* Transaction.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		F4FFE49C211C325000A2A5A5 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE49D211C325000A2A5A5 /* TransactionItemState.swift */,
+				F4FFE49E211C325000A2A5A5 /* Coordinators */,
+				F4FFE4A1211C325000A2A5A5 /* LocalizedOperationObject.swift */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		F4FFE49E211C325000A2A5A5 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE49F211C325000A2A5A5 /* BalanceCoordinator.swift */,
+				F4FFE4A0211C325000A2A5A5 /* TrustProvider.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		F4FFE4A2211C325000A2A5A5 /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE4A3211C325000A2A5A5 /* WalletInfo.swift */,
+				F4FFE4A4211C325000A2A5A5 /* WalletEntryPoint.swift */,
+				F4FFE4A5211C325000A2A5A5 /* WalletObject.swift */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		F4FFE4A6211C325000A2A5A5 /* Tokens */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE4A7211C325000A2A5A5 /* NonFungibleTokenCategory.swift */,
+				F4FFE4A8211C325000A2A5A5 /* NonFungibleTokenObject.swift */,
+				F4FFE4A9211C325000A2A5A5 /* TokenBalanceOperation.swift */,
+				F4FFE4AA211C325000A2A5A5 /* TokenObject.swift */,
+				F4FFE4AB211C325000A2A5A5 /* CoinTicker.swift */,
+				F4FFE4AC211C325000A2A5A5 /* ERC20Token.swift */,
+			);
+			path = Tokens;
+			sourceTree = "<group>";
+		};
+		F4FFE4AD211C325000A2A5A5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE4AE211C325000A2A5A5 /* Types */,
+				F4FFE4B0211C325000A2A5A5 /* Network */,
+				F4FFE4B2211C325000A2A5A5 /* Formatters */,
+				F4FFE4B4211C325000A2A5A5 /* Initializers */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F4FFE4AE211C325000A2A5A5 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE4AF211C325000A2A5A5 /* TrustRealmConfiguration.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		F4FFE4B0211C325000A2A5A5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE4B1211C325000A2A5A5 /* TrustNetwork.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F4FFE4B2211C325000A2A5A5 /* Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE4B3211C325000A2A5A5 /* CurrencyFormatter.swift */,
+			);
+			path = Formatters;
+			sourceTree = "<group>";
+		};
+		F4FFE4B4211C325000A2A5A5 /* Initializers */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE4B5211C325000A2A5A5 /* SharedMigrationInitializer.swift */,
+				F4FFE4B6211C325000A2A5A5 /* MirgrationInitializer.swift */,
+				F4FFE4B7211C325000A2A5A5 /* Initializer.swift */,
+			);
+			path = Initializers;
+			sourceTree = "<group>";
+		};
+		F4FFE4B8211C325000A2A5A5 /* EtherClient */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE4B9211C325000A2A5A5 /* CastError.swift */,
+				F4FFE4BA211C325000A2A5A5 /* KeyStoreError.swift */,
+				F4FFE4BB211C325000A2A5A5 /* ENS */,
+				F4FFE4C0211C325000A2A5A5 /* Types */,
+				F4FFE4C3211C325000A2A5A5 /* Keystore.swift */,
+				F4FFE4C4211C325000A2A5A5 /* Providers */,
+				F4FFE4C9211C325000A2A5A5 /* ChainState.swift */,
+				F4FFE4CA211C325000A2A5A5 /* bignumber.min.js */,
+				F4FFE4CB211C325000A2A5A5 /* Requests */,
+				F4FFE4D5211C325000A2A5A5 /* ImportType.swift */,
+				F4FFE4D6211C325000A2A5A5 /* EtherServiceRequest.swift */,
+				F4FFE4D7211C325000A2A5A5 /* EtherKeystore.swift */,
+				F4FFE4D8211C325000A2A5A5 /* PasswordGenerator.swift */,
+				F4FFE4D9211C325000A2A5A5 /* TrustClient */,
+				F4FFE4E0211C325000A2A5A5 /* TransactionSigning.swift */,
+				F4FFE4E1211C325000A2A5A5 /* Wallet.swift */,
+			);
+			path = EtherClient;
+			sourceTree = "<group>";
+		};
+		F4FFE4BB211C325000A2A5A5 /* ENS */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE4BC211C325000A2A5A5 /* ENSRecord.swift */,
+				F4FFE4BD211C325000A2A5A5 /* ENSStore.swift */,
+				F4FFE4BE211C325000A2A5A5 /* ENSClient.swift */,
+				F4FFE4BF211C325000A2A5A5 /* ENSManager.swift */,
+			);
+			path = ENS;
+			sourceTree = "<group>";
+		};
+		F4FFE4C0211C325000A2A5A5 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE4C1211C325000A2A5A5 /* EthTypedData.swift */,
+				F4FFE4C2211C325000A2A5A5 /* WalletType.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		F4FFE4C4211C325000A2A5A5 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE4C5211C325000A2A5A5 /* Providers */,
+				F4FFE4C7211C325000A2A5A5 /* Protocols */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		F4FFE4C5211C325000A2A5A5 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE4C6211C325000A2A5A5 /* GetNonceProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		F4FFE4C7211C325000A2A5A5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE4C8211C325000A2A5A5 /* NonceProvider.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		F4FFE4CB211C325000A2A5A5 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE4CC211C325000A2A5A5 /* GetTransactionRequest.swift */,
+				F4FFE4CD211C325000A2A5A5 /* GetTransactionReceiptRequest.swift */,
+				F4FFE4CE211C325000A2A5A5 /* EstimateGasRequest.swift */,
+				F4FFE4CF211C325000A2A5A5 /* GasPriceRequest.swift */,
+				F4FFE4D0211C325000A2A5A5 /* CallRequest.swift */,
+				F4FFE4D1211C325000A2A5A5 /* GetTransactionCountRequest.swift */,
+				F4FFE4D2211C325000A2A5A5 /* SendRawTransactionRequest.swift */,
+				F4FFE4D3211C325000A2A5A5 /* BlockNumber.swift */,
+				F4FFE4D4211C325000A2A5A5 /* BalanceRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		F4FFE4D9211C325000A2A5A5 /* TrustClient */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE4DA211C325000A2A5A5 /* TrustAPI.swift */,
+				F4FFE4DB211C325000A2A5A5 /* TrustClient.swift */,
+				F4FFE4DC211C325000A2A5A5 /* Models */,
+			);
+			path = TrustClient;
+			sourceTree = "<group>";
+		};
+		F4FFE4DC211C325000A2A5A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE4DD211C325000A2A5A5 /* OperationType.swift */,
+				F4FFE4DE211C325000A2A5A5 /* ArrayResponse.swift */,
+				F4FFE4DF211C325000A2A5A5 /* ERC20Contract.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F4FFE4E2211C325000A2A5A5 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE4E3211C325000A2A5A5 /* EtherNumberFormatter.swift */,
+				F4FFE4E4211C325000A2A5A5 /* QRGenerator.swift */,
+				F4FFE4E5211C325000A2A5A5 /* QRURLParser.swift */,
+				F4FFE4E6211C325000A2A5A5 /* TrustOperation.swift */,
+				F4FFE4E7211C325000A2A5A5 /* Subscribable.swift */,
+				F4FFE4E8211C325000A2A5A5 /* CryptoAddressValidator.swift */,
+				F4FFE4E9211C325000A2A5A5 /* DecimalFormatter.swift */,
+				F4FFE4EA211C325000A2A5A5 /* TrustNetworkProtocol.swift */,
+				F4FFE4EB211C325000A2A5A5 /* StringFormatter.swift */,
+				F4FFE4EC211C325000A2A5A5 /* Coordinator.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		F4FFE4ED211C325000A2A5A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE4EE211C325000A2A5A5 /* EthereumUnit.swift */,
+				F4FFE4EF211C325000A2A5A5 /* SignTransaction.swift */,
+				F4FFE4F0211C325000A2A5A5 /* BalanceProtocol.swift */,
+				F4FFE4F1211C325000A2A5A5 /* Balance.swift */,
+				F4FFE4F2211C325000A2A5A5 /* PendingTransaction.swift */,
+				F4FFE4F3211C325000A2A5A5 /* Token.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F4FFE4F4211C325000A2A5A5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE4F5211C325000A2A5A5 /* Address.swift */,
+				F4FFE4F6211C325000A2A5A5 /* Data.swift */,
+				F4FFE4F7211C325000A2A5A5 /* Decimal.swift */,
+				F4FFE4F8211C325000A2A5A5 /* NSObject.swift */,
+				F4FFE4F9211C325000A2A5A5 /* Dictionary.swift */,
+				F4FFE4FA211C325000A2A5A5 /* String.swift */,
+				F4FFE4FB211C325000A2A5A5 /* Realm+Extensions.swift */,
+				F4FFE4FC211C325000A2A5A5 /* Bundle.swift */,
+				F4FFE4FD211C325000A2A5A5 /* BigInt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F4FFE4FE211C325000A2A5A5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE4FF211C325000A2A5A5 /* TokensBalanceService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F4FFE56F211D07AC00A2A5A5 /* Tokenization */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFE56C211CF98200A2A5A5 /* HyperlootManager.h */,
+				F4FFE56D211CF98200A2A5A5 /* HyperlootManager.m */,
+				F4FFE570211D07C800A2A5A5 /* Q3TokenItem.swift */,
+				F4FFE576211D987F00A2A5A5 /* HyperlootWeapons.h */,
+				F4FFE577211D987F00A2A5A5 /* HyperlootWeapons.c */,
+			);
+			path = Tokenization;
+			sourceTree = "<group>";
+		};
 		FDD2542D0D80FE5300E13415 /* ios */ = {
 			isa = PBXGroup;
 			children = (
+				F4FFE56F211D07AC00A2A5A5 /* Tokenization */,
 				5F745D3F20F01D500023AA52 /* Main.storyboard */,
 				5F745D4120F01D500023AA52 /* MainViewController.h */,
 				5F745D4020F01D500023AA52 /* MainViewController.m */,
@@ -1578,10 +2213,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Quake3" */;
 			buildPhases = (
+				99877A38A96C427D96D61657 /* [CP] Check Pods Manifest.lock */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
 				50524F424C454D533F /* ShellScript */,
+				4EBE8D9ADC071F392706770A /* [CP] Embed Pods Frameworks */,
+				A1E8D3543DBF362A24B9F626 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1598,7 +2236,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0940;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Quake3" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1612,6 +2250,7 @@
 				en,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
 			projectDirPath = "";
 			projectRoot = ../..;
 			targets = (
@@ -1633,6 +2272,7 @@
 				FDEC0B0C1568D0CC0063201B /* q3_enter.png in Resources */,
 				FDEC0B0D1568D0CC0063201B /* q3_escape.png in Resources */,
 				5F745D4420F01D500023AA52 /* Main.storyboard in Resources */,
+				F4FFE53D211C325000A2A5A5 /* bignumber.min.js in Resources */,
 				FDEC0B0E1568D0CC0063201B /* q3a_new_control.png in Resources */,
 				FDEC0B0F1568D0CC0063201B /* Quake_III_Arena_Logo.png in Resources */,
 				2C7A7BA41767DA0000BEA13E /* Default@2x.png in Resources */,
@@ -1646,6 +2286,56 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4EBE8D9ADC071F392706770A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CommonPods-Quake3/Pods-CommonPods-Quake3-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/APIKit/APIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONRPCKit/JSONRPCKit.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework",
+				"${BUILT_PRODUCTS_DIR}/SipHash/SipHash.framework",
+				"${BUILT_PRODUCTS_DIR}/TrezorCrypto/TrezorCrypto.framework",
+				"${BUILT_PRODUCTS_DIR}/TrustCore/TrustCore.framework",
+				"${BUILT_PRODUCTS_DIR}/TrustKeystore/TrustKeystore.framework",
+				"${BUILT_PRODUCTS_DIR}/TrustWalletSDK/TrustWalletSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BigInt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONRPCKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAMKeychain.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SipHash.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TrezorCrypto.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TrustCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TrustKeystore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TrustWalletSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CommonPods-Quake3/Pods-CommonPods-Quake3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		50524F424C454D533F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 12;
@@ -1659,6 +2349,42 @@
 			shellPath = /bin/sh;
 			shellScript = "# MEC: This script detects if JailCoder is installed. If it is use it.\nexport CODESIGN_ALLOCATE=/Library/JailCoder/codesign_allocate\n\nif [ -f \"$CODESIGN_ALLOCATE\" ]; then\n    if [ \"${PLATFORM_NAME}\" == \"iphoneos\" ]; then\n/Library/JailCoder/Entitlements/Entitlements.py \"my.company.$ {PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\n    fi\nfi";
 		};
+		99877A38A96C427D96D61657 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CommonPods-Quake3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1E8D3543DBF362A24B9F626 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CommonPods-Quake3/Pods-CommonPods-Quake3-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TrustWeb3Provider/TrustWeb3Provider.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TrustWeb3Provider.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CommonPods-Quake3/Pods-CommonPods-Quake3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1667,48 +2393,76 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDD254400D80FF5200E13415 /* ios_glimp.m in Sources */,
+				F4FFE55A211C325000A2A5A5 /* StringFormatter.swift in Sources */,
+				F4FFE526211C325000A2A5A5 /* NonFungibleTokenObject.swift in Sources */,
 				FDD254420D80FF5200E13415 /* ios_glsmp_null.c in Sources */,
 				FDD254430D80FF5200E13415 /* ios_input.m in Sources */,
 				FDD254440D80FF5200E13415 /* ios_main.m in Sources */,
+				F4FFE578211D987F00A2A5A5 /* HyperlootWeapons.c in Sources */,
 				FDD254460D80FF5200E13415 /* Q3ScreenView.m in Sources */,
 				2C95BDD4178C960B00BD1463 /* sys_unix.c in Sources */,
 				2C95BDD6178CB38300BD1463 /* be_aas_bspq3.c in Sources */,
 				2C95BDD7178CB38300BD1463 /* be_aas_cluster.c in Sources */,
+				F4FFE56A211C325000A2A5A5 /* BigInt.swift in Sources */,
 				2C95BDD8178CB38300BD1463 /* be_aas_debug.c in Sources */,
 				2C95BDD9178CB38300BD1463 /* be_aas_entity.c in Sources */,
 				2C95BDDA178CB38300BD1463 /* be_aas_file.c in Sources */,
+				F4FFE52A211C325000A2A5A5 /* ERC20Token.swift in Sources */,
 				2C95BDDB178CB38300BD1463 /* be_aas_main.c in Sources */,
+				F4FFE551211C325000A2A5A5 /* Wallet.swift in Sources */,
 				2C95BDDC178CB38300BD1463 /* be_aas_move.c in Sources */,
 				2C95BDDD178CB38300BD1463 /* be_aas_optimize.c in Sources */,
+				F4FFE560211C325000A2A5A5 /* PendingTransaction.swift in Sources */,
 				2C95BDDE178CB38300BD1463 /* be_aas_reach.c in Sources */,
+				F4FFE514211C325000A2A5A5 /* DAppRequster.swift in Sources */,
 				2C95BDDF178CB38300BD1463 /* be_aas_route.c in Sources */,
 				2C95BDE0178CB38300BD1463 /* be_aas_routealt.c in Sources */,
+				F4FFE512211C325000A2A5A5 /* BalanceStatus.swift in Sources */,
 				2C95BDE1178CB38300BD1463 /* be_aas_sample.c in Sources */,
 				2C95BDE2178CB38300BD1463 /* be_ai_char.c in Sources */,
+				F4FFE50C211C325000A2A5A5 /* SentTransaction.swift in Sources */,
 				2C95BDE3178CB38300BD1463 /* be_ai_chat.c in Sources */,
 				2C95BDE4178CB38300BD1463 /* be_ai_gen.c in Sources */,
 				2C95BDE5178CB38300BD1463 /* be_ai_goal.c in Sources */,
 				2C95BDE6178CB38300BD1463 /* be_ai_move.c in Sources */,
+				F4FFE54B211C325000A2A5A5 /* TrustAPI.swift in Sources */,
+				F4FFE53A211C325000A2A5A5 /* GetNonceProvider.swift in Sources */,
 				2C95BDE7178CB38300BD1463 /* be_ai_weap.c in Sources */,
 				2C95BDE8178CB38300BD1463 /* be_ai_weight.c in Sources */,
 				2C95BDE9178CB38300BD1463 /* be_ea.c in Sources */,
+				F4FFE50D211C325000A2A5A5 /* ConfigureTransaction.swift in Sources */,
 				2C95BDEA178CB38300BD1463 /* be_interface.c in Sources */,
 				2C95BDEB178CB3A600BD1463 /* l_crc.c in Sources */,
 				2C95BDEC178CB3A600BD1463 /* l_libvar.c in Sources */,
+				F4FFE547211C325000A2A5A5 /* ImportType.swift in Sources */,
 				2C95BDED178CB3A600BD1463 /* l_log.c in Sources */,
 				2C95BDEE178CB3A600BD1463 /* l_memory.c in Sources */,
+				F4FFE52E211C325000A2A5A5 /* SharedMigrationInitializer.swift in Sources */,
 				2C95BDEF178CB3A600BD1463 /* l_precomp.c in Sources */,
 				2C95BDF0178CB3A600BD1463 /* l_script.c in Sources */,
+				F4FFE527211C325000A2A5A5 /* TokenBalanceOperation.swift in Sources */,
+				F4FFE56B211C325000A2A5A5 /* TokensBalanceService.swift in Sources */,
+				F4FFE508211C325000A2A5A5 /* CustomRPC.swift in Sources */,
+				F4FFE523211C325000A2A5A5 /* WalletEntryPoint.swift in Sources */,
 				2C95BDF1178CB3A600BD1463 /* l_struct.c in Sources */,
+				F4FFE55D211C325000A2A5A5 /* SignTransaction.swift in Sources */,
 				2C9161BC178CB7E800D43561 /* jquant1.c in Sources */,
+				F4FFE50E211C325000A2A5A5 /* PaymentFlow.swift in Sources */,
+				F4FFE52F211C325000A2A5A5 /* MirgrationInitializer.swift in Sources */,
+				F4FFE507211C325000A2A5A5 /* Constants.swift in Sources */,
 				2C9161BD178CB7E800D43561 /* jquant2.c in Sources */,
 				2C9161BE178CB7E800D43561 /* jutils.c in Sources */,
 				2C9161BF178CB7F100D43561 /* jmemmgr.c in Sources */,
 				2C9161C0178CB7F100D43561 /* jmemnobs.c in Sources */,
+				F4FFE548211C325000A2A5A5 /* EtherServiceRequest.swift in Sources */,
 				2C9161C1178CB7FE00D43561 /* jfdctflt.c in Sources */,
 				2C9161C2178CB7FE00D43561 /* jfdctfst.c in Sources */,
+				F4FFE501211C325000A2A5A5 /* HyperlootDemo.swift in Sources */,
 				2C9161C3178CB7FE00D43561 /* jfdctint.c in Sources */,
+				F4FFE515211C325000A2A5A5 /* ConfigureTransactionError.swift in Sources */,
 				2C9161C4178CB7FE00D43561 /* jidctflt.c in Sources */,
+				F4FFE528211C325000A2A5A5 /* TokenObject.swift in Sources */,
+				F4FFE567211C325000A2A5A5 /* String.swift in Sources */,
 				2C9161C5178CB7FE00D43561 /* jidctfst.c in Sources */,
 				2C9161C6178CB7FE00D43561 /* jidctint.c in Sources */,
 				2C9161C7178CB80500D43561 /* jddctmgr.c in Sources */,
@@ -1716,49 +2470,78 @@
 				2C9161C9178CB80500D43561 /* jdinput.c in Sources */,
 				2C9161CA178CB80500D43561 /* jdmainct.c in Sources */,
 				2C9161CB178CB80500D43561 /* jdmarker.c in Sources */,
+				F4FFE502211C325000A2A5A5 /* WalletProvider.swift in Sources */,
 				2C9161CC178CB80500D43561 /* jdmaster.c in Sources */,
+				F4FFE500211C325000A2A5A5 /* HyperlootTokenBalance.swift in Sources */,
+				F4FFE563211C325000A2A5A5 /* Data.swift in Sources */,
+				F4FFE519211C325000A2A5A5 /* Session.swift in Sources */,
 				2C9161CD178CB80500D43561 /* jdmerge.c in Sources */,
+				F4FFE561211C325000A2A5A5 /* Token.swift in Sources */,
 				2C9161CE178CB80500D43561 /* jdpostct.c in Sources */,
 				2C9161CF178CB80500D43561 /* jdsample.c in Sources */,
 				2C9161D0178CB80500D43561 /* jdtrans.c in Sources */,
 				2C9161D1178CB80500D43561 /* jerror.c in Sources */,
 				2C9161D2178CB80E00D43561 /* jcparam.c in Sources */,
 				2C9161D3178CB80E00D43561 /* jcprepct.c in Sources */,
+				F4FFE55E211C325000A2A5A5 /* BalanceProtocol.swift in Sources */,
 				2C9161D4178CB80E00D43561 /* jcsample.c in Sources */,
+				F4FFE569211C325000A2A5A5 /* Bundle.swift in Sources */,
 				2C9161D5178CB80E00D43561 /* jctrans.c in Sources */,
+				F4FFE529211C325000A2A5A5 /* CoinTicker.swift in Sources */,
 				2C9161D6178CB80E00D43561 /* jdapimin.c in Sources */,
 				2C9161D7178CB80E00D43561 /* jdapistd.c in Sources */,
+				F4FFE553211C325000A2A5A5 /* QRGenerator.swift in Sources */,
 				2C9161D8178CB80E00D43561 /* jdarith.c in Sources */,
+				F4FFE524211C325000A2A5A5 /* WalletObject.swift in Sources */,
+				F4FFE530211C325000A2A5A5 /* Initializer.swift in Sources */,
+				F4FFE50A211C325000A2A5A5 /* RPCServers.swift in Sources */,
 				2C9161D9178CB80E00D43561 /* jdatadst.c in Sources */,
 				2C9161DA178CB80E00D43561 /* jdatasrc.c in Sources */,
 				2C9161DB178CB80E00D43561 /* jdcoefct.c in Sources */,
 				2C9161DC178CB80E00D43561 /* jdcolor.c in Sources */,
 				2C9161DD178CB81700D43561 /* jaricom.c in Sources */,
+				F4FFE518211C325000A2A5A5 /* TransactionConfigurator.swift in Sources */,
 				2C9161DE178CB81700D43561 /* jcapimin.c in Sources */,
 				2C9161DF178CB81700D43561 /* jcapistd.c in Sources */,
+				F4FFE56E211CF98200A2A5A5 /* HyperlootManager.m in Sources */,
 				2C9161E0178CB81700D43561 /* jcarith.c in Sources */,
 				2C9161E1178CB81700D43561 /* jccoefct.c in Sources */,
 				2C9161E2178CB81700D43561 /* jccolor.c in Sources */,
 				2C9161E3178CB81700D43561 /* jcdctmgr.c in Sources */,
+				F4FFE558211C325000A2A5A5 /* DecimalFormatter.swift in Sources */,
+				F4FFE53E211C325000A2A5A5 /* GetTransactionRequest.swift in Sources */,
 				2C9161E4178CB81700D43561 /* jchuff.c in Sources */,
 				2C9161E5178CB81700D43561 /* jcinit.c in Sources */,
+				F4FFE54A211C325000A2A5A5 /* PasswordGenerator.swift in Sources */,
 				2C9161E6178CB81700D43561 /* jcmainct.c in Sources */,
+				F4FFE557211C325000A2A5A5 /* CryptoAddressValidator.swift in Sources */,
 				2C9161E7178CB81700D43561 /* jcmarker.c in Sources */,
+				F4FFE534211C325000A2A5A5 /* ENSStore.swift in Sources */,
+				F4FFE554211C325000A2A5A5 /* QRURLParser.swift in Sources */,
 				2C9161E8178CB81700D43561 /* jcmaster.c in Sources */,
 				2C9161E9178CB81700D43561 /* jcomapi.c in Sources */,
+				F4FFE521211C325000A2A5A5 /* LocalizedOperationObject.swift in Sources */,
 				2C9161EA178CB85F00D43561 /* cl_cgame.c in Sources */,
+				F4FFE539211C325000A2A5A5 /* Keystore.swift in Sources */,
 				2C9161EB178CB85F00D43561 /* cl_cin.c in Sources */,
 				2C9161EC178CB85F00D43561 /* cl_console.c in Sources */,
+				F4FFE538211C325000A2A5A5 /* WalletType.swift in Sources */,
+				F4FFE54C211C325000A2A5A5 /* TrustClient.swift in Sources */,
 				2C9161ED178CB85F00D43561 /* cl_input.c in Sources */,
 				2C9161EE178CB85F00D43561 /* cl_keys.c in Sources */,
+				F4FFE51B211C325000A2A5A5 /* TokensDataStore.swift in Sources */,
+				F4FFE533211C325000A2A5A5 /* ENSRecord.swift in Sources */,
 				2C9161EF178CB85F00D43561 /* cl_main.c in Sources */,
 				5F745D4820F01F8E0023AA52 /* ftola.c in Sources */,
 				2C9161F0178CB85F00D43561 /* cl_net_chan.c in Sources */,
+				F4FFE52C211C325000A2A5A5 /* TrustNetwork.swift in Sources */,
 				2C9161F1178CB85F00D43561 /* cl_parse.c in Sources */,
 				2C9161F2178CB85F00D43561 /* cl_scrn.c in Sources */,
 				2C9161F3178CB85F00D43561 /* cl_ui.c in Sources */,
 				2C9161F4178CB85F00D43561 /* snd_adpcm.c in Sources */,
+				F4FFE53B211C325000A2A5A5 /* NonceProvider.swift in Sources */,
 				2C9161F5178CB85F00D43561 /* snd_dma.c in Sources */,
+				F4FFE503211C325000A2A5A5 /* WalletUpdatesDelegate.swift in Sources */,
 				2C9161F6178CB85F00D43561 /* snd_main.c in Sources */,
 				2C9161F7178CB85F00D43561 /* snd_mem.c in Sources */,
 				2C9161F8178CB85F00D43561 /* snd_mix.c in Sources */,
@@ -1768,76 +2551,129 @@
 				2C9161FC178CB8C000D43561 /* cm_polylib.c in Sources */,
 				2C9161FD178CB8C000D43561 /* cm_test.c in Sources */,
 				2C9161FE178CB8C000D43561 /* cm_trace.c in Sources */,
+				F4FFE55C211C325000A2A5A5 /* EthereumUnit.swift in Sources */,
+				F4FFE51D211C325000A2A5A5 /* Transaction.swift in Sources */,
+				F4FFE504211C325000A2A5A5 /* HyperlootSession.swift in Sources */,
 				2C9161FF178CB8C000D43561 /* cmd.c in Sources */,
 				2C916200178CB8C000D43561 /* common.c in Sources */,
 				2C916201178CB8C000D43561 /* cvar.c in Sources */,
+				F4FFE52B211C325000A2A5A5 /* TrustRealmConfiguration.swift in Sources */,
 				2C916202178CB8C000D43561 /* files.c in Sources */,
+				F4FFE53F211C325000A2A5A5 /* GetTransactionReceiptRequest.swift in Sources */,
 				2C916203178CB8C000D43561 /* huffman.c in Sources */,
 				2C916204178CB8C000D43561 /* md4.c in Sources */,
+				F4FFE506211C325000A2A5A5 /* CurrencyRate.swift in Sources */,
+				F4FFE50F211C325000A2A5A5 /* TransferType.swift in Sources */,
 				2C916205178CB8C000D43561 /* msg.c in Sources */,
 				2C916206178CB8C000D43561 /* net_chan.c in Sources */,
+				F4FFE51E211C325000A2A5A5 /* TransactionItemState.swift in Sources */,
 				2C916207178CB8C000D43561 /* net_ip.c in Sources */,
 				5F745D4720F01F7E0023AA52 /* snapvector.c in Sources */,
 				2C916208178CB8C000D43561 /* unzip.c in Sources */,
 				2C916209178CB8C000D43561 /* vm.c in Sources */,
 				2C91620A178CB8C000D43561 /* vm_interpreted.c in Sources */,
 				2C91620B178CB8C000D43561 /* vm_none.c in Sources */,
+				F4FFE516211C325000A2A5A5 /* GasPriceConfiguration.swift in Sources */,
 				2C91620C178CB8E900D43561 /* tr_animation.c in Sources */,
+				F4FFE513211C325000A2A5A5 /* CurrencyRate+Fee.swift in Sources */,
 				2C91620D178CB8E900D43561 /* tr_backend.c in Sources */,
+				F4FFE559211C325000A2A5A5 /* TrustNetworkProtocol.swift in Sources */,
+				F4FFE522211C325000A2A5A5 /* WalletInfo.swift in Sources */,
 				2C91620E178CB8E900D43561 /* tr_bsp.c in Sources */,
+				F4FFE532211C325000A2A5A5 /* KeyStoreError.swift in Sources */,
 				2C91620F178CB8E900D43561 /* tr_cmds.c in Sources */,
 				2C916210178CB8E900D43561 /* tr_curve.c in Sources */,
 				2C916211178CB8E900D43561 /* tr_image.c in Sources */,
 				2C916212178CB8E900D43561 /* tr_init.c in Sources */,
 				2C916213178CB8E900D43561 /* tr_light.c in Sources */,
+				F4FFE50B211C325000A2A5A5 /* Config.swift in Sources */,
 				2C916214178CB90A00D43561 /* tr_main.c in Sources */,
 				2C916215178CB90A00D43561 /* tr_marks.c in Sources */,
+				F4FFE544211C325000A2A5A5 /* SendRawTransactionRequest.swift in Sources */,
+				F4FFE546211C325000A2A5A5 /* BalanceRequest.swift in Sources */,
 				2C916216178CB90A00D43561 /* tr_mesh.c in Sources */,
 				2C916217178CB90A00D43561 /* tr_model.c in Sources */,
 				2C916218178CB90A00D43561 /* tr_scene.c in Sources */,
+				F4FFE537211C325000A2A5A5 /* EthTypedData.swift in Sources */,
+				F4FFE54D211C325000A2A5A5 /* OperationType.swift in Sources */,
 				2C916219178CB90A00D43561 /* tr_shade.c in Sources */,
+				F4FFE509211C325000A2A5A5 /* Currency.swift in Sources */,
 				2C91621A178CB90A00D43561 /* tr_shade_calc.c in Sources */,
 				2C91621B178CB90A00D43561 /* tr_shader.c in Sources */,
 				2C916221178CB91D00D43561 /* tr_shadows.c in Sources */,
 				2C916222178CB91D00D43561 /* tr_sky.c in Sources */,
 				2C916224178CB91D00D43561 /* tr_surface.c in Sources */,
+				F4FFE535211C325000A2A5A5 /* ENSClient.swift in Sources */,
 				2C916225178CB91D00D43561 /* tr_world.c in Sources */,
 				2C916226178CB94200D43561 /* sv_bot.c in Sources */,
+				F4FFE552211C325000A2A5A5 /* EtherNumberFormatter.swift in Sources */,
 				2C916227178CB94200D43561 /* sv_ccmds.c in Sources */,
+				F4FFE550211C325000A2A5A5 /* TransactionSigning.swift in Sources */,
+				F4FFE51A211C325000A2A5A5 /* TransactionsStorage.swift in Sources */,
 				2C916228178CB94200D43561 /* sv_client.c in Sources */,
 				2C916229178CB94200D43561 /* sv_game.c in Sources */,
 				2C91622A178CB94200D43561 /* sv_init.c in Sources */,
+				F4FFE564211C325000A2A5A5 /* Decimal.swift in Sources */,
+				F4FFE568211C325000A2A5A5 /* Realm+Extensions.swift in Sources */,
 				2C91622B178CB94200D43561 /* sv_main.c in Sources */,
 				2C91622C178CB94200D43561 /* sv_net_chan.c in Sources */,
+				F4FFE517211C325000A2A5A5 /* TransactionConfiguration.swift in Sources */,
+				F4FFE549211C325000A2A5A5 /* EtherKeystore.swift in Sources */,
+				F4FFE53C211C325000A2A5A5 /* ChainState.swift in Sources */,
+				F4FFE545211C325000A2A5A5 /* BlockNumber.swift in Sources */,
 				2C91622E178CB94200D43561 /* sv_snapshot.c in Sources */,
 				2C91622F178CB94200D43561 /* sv_world.c in Sources */,
 				5F745D4520F01D500023AA52 /* MainViewController.m in Sources */,
+				F4FFE51F211C325000A2A5A5 /* BalanceCoordinator.swift in Sources */,
+				F4FFE555211C325000A2A5A5 /* TrustOperation.swift in Sources */,
+				F4FFE536211C325000A2A5A5 /* ENSManager.swift in Sources */,
 				2C916230178CB94B00D43561 /* q_math.c in Sources */,
 				2C916231178CB94B00D43561 /* q_shared.c in Sources */,
 				2C916234178CD5D500D43561 /* snd_codec.c in Sources */,
+				F4FFE556211C325000A2A5A5 /* Subscribable.swift in Sources */,
 				2C916235178CD5E100D43561 /* tr_model_iqm.c in Sources */,
 				2C916236178CD5FF00D43561 /* tr_font.c in Sources */,
 				2C916237178CD61700D43561 /* tr_image_jpg.c in Sources */,
+				F4FFE54F211C325000A2A5A5 /* ERC20Contract.swift in Sources */,
+				F4FFE562211C325000A2A5A5 /* Address.swift in Sources */,
 				2C916238178CD70600D43561 /* tr_image_bmp.c in Sources */,
 				2C916239178CD72000D43561 /* tr_flares.c in Sources */,
 				2C91623B178CD86200D43561 /* sys_main.c in Sources */,
 				2C91623D178CDA2A00D43561 /* con_tty.c in Sources */,
+				F4FFE52D211C325000A2A5A5 /* CurrencyFormatter.swift in Sources */,
 				2C91623E178CDA4900D43561 /* snd_codec_wav.c in Sources */,
+				F4FFE541211C325000A2A5A5 /* GasPriceRequest.swift in Sources */,
+				F4FFE525211C325000A2A5A5 /* NonFungibleTokenCategory.swift in Sources */,
 				2C91623F178CDA6000D43561 /* tr_noise.c in Sources */,
 				2C916240178CDA7600D43561 /* tr_image_png.c in Sources */,
+				F4FFE542211C325000A2A5A5 /* CallRequest.swift in Sources */,
 				2C916241178CDA8E00D43561 /* puff.c in Sources */,
+				F4FFE510211C325000A2A5A5 /* UnconfirmedTransaction.swift in Sources */,
 				2C916242178CDAA100D43561 /* cl_avi.c in Sources */,
 				2C916243178CDACB00D43561 /* con_log.c in Sources */,
+				F4FFE520211C325000A2A5A5 /* TrustProvider.swift in Sources */,
+				F4FFE55B211C325000A2A5A5 /* Coordinator.swift in Sources */,
 				2C916244178CDB0700D43561 /* tr_image_tga.c in Sources */,
+				F4FFE565211C325000A2A5A5 /* NSObject.swift in Sources */,
 				2C916245178CDB6D00D43561 /* tr_image_pcx.c in Sources */,
+				F4FFE566211C325000A2A5A5 /* Dictionary.swift in Sources */,
+				F4FFE543211C325000A2A5A5 /* GetTransactionCountRequest.swift in Sources */,
+				F4FFE54E211C325000A2A5A5 /* ArrayResponse.swift in Sources */,
 				2C916246178CDB8300D43561 /* ioapi.c in Sources */,
+				F4FFE505211C325000A2A5A5 /* HyperlootTimer.swift in Sources */,
 				2C916247178CDBEB00D43561 /* md5.c in Sources */,
+				F4FFE571211D07C800A2A5A5 /* Q3TokenItem.swift in Sources */,
 				2C916248178CDC0500D43561 /* snd_openal.c in Sources */,
 				5F745D4620F01D500023AA52 /* Quake3AppDelegate.m in Sources */,
 				FD4BE740103D1BA100A9AC33 /* Q3Downloader.m in Sources */,
+				F4FFE511211C325000A2A5A5 /* GasLimitConfiguration.swift in Sources */,
 				FD05A01913C1B8D70038165B /* ios_snddma.c in Sources */,
 				2C03759A17936B240004B110 /* cl_curl.c in Sources */,
+				F4FFE531211C325000A2A5A5 /* CastError.swift in Sources */,
 				2C0375A5179370FC0004B110 /* qal.c in Sources */,
+				F4FFE51C211C325000A2A5A5 /* WalletStorage.swift in Sources */,
+				F4FFE55F211C325000A2A5A5 /* Balance.swift in Sources */,
+				F4FFE540211C325000A2A5A5 /* EstimateGasRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1846,9 +2682,14 @@
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 245CBA80E8965D8E021A7069 /* Pods-CommonPods-Quake3.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../libs/ios\"",
@@ -1863,21 +2704,28 @@
 				);
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../libs/ios\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mecwerks.ioquake3;
 				PRODUCT_NAME = Quake3;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		1D6058950D05DD3E006BFB54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8BE78D2A36075CE14FC9A02 /* Pods-CommonPods-Quake3.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
+				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../libs/ios\"",
@@ -1892,12 +2740,14 @@
 				);
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../libs/ios\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mecwerks.ioquake3;
 				PRODUCT_NAME = Quake3;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1905,9 +2755,30 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 0.0.1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					MACOS_X,
@@ -1916,9 +2787,13 @@
 					C_ONLY,
 					QGL_CHECK_GL_ERRORS,
 				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -1930,9 +2805,29 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 0.0.1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					MACOS_X,
@@ -1941,9 +2836,13 @@
 					C_ONLY,
 					NDEBUG,
 				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1954,9 +2853,29 @@
 		FD38B52D11B20E8900A16F9D /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 0.0.1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					MACOS_X,
@@ -1965,9 +2884,13 @@
 					C_ONLY,
 					NDEBUG,
 				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1977,9 +2900,14 @@
 		};
 		FD38B52E11B20E8900A16F9D /* Distribution */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12221B13D73547BFC2FC7818 /* Pods-CommonPods-Quake3.distribution.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
+				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../libs/ios\"",
@@ -1994,12 +2922,14 @@
 				);
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../libs/ios\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mecwerks.ioquake3;
 				PRODUCT_NAME = Quake3;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Distribution;

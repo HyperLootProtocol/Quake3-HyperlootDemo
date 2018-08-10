@@ -247,6 +247,7 @@ static const long long kDemoPakFileSize = 46853694;
 	[_loadingView removeFromSuperview];
 	
 	_screenView.hidden =  NO;
+	Cmd_ExecuteString("exec default.cfg\n");
 	
 	[self _startRunning];
 }

@@ -10,6 +10,8 @@
 #import	<OpenGLES/ES1/glext.h>
 #import	<UIKit/UIKit.h>
 
+#import "HyperlootManager.h"
+
 #include "../client/keycodes.h"
 #include "../renderergl1/tr_local.h"
 #include "../client/client.h"
@@ -38,8 +40,8 @@
         newLocation = CGPointMake(
                                   Joypad[i].oldLocation.x - Joypad[i].distanceFromCenter/4 * cosf(Joypad[i].touchAngle),
                                   Joypad[i].oldLocation.y - Joypad[i].distanceFromCenter/4 * sinf(Joypad[i].touchAngle));
-        width = roundf((Joypad[i].oldLocation.y - newLocation.y) * _mouseScale.x);
-        height = roundf((newLocation.x - Joypad[i].oldLocation.x) * _mouseScale.y);
+        width = roundf((newLocation.x - Joypad[i].oldLocation.x) * _mouseScale.x);
+        height = roundf((newLocation.y - Joypad[i].oldLocation.y) * _mouseScale.y);
         
         if (Joypad[i].distanceFromCenter > 8)
         {
@@ -104,11 +106,22 @@
     }
 }
 
+- (void)updateWalletInformation {
+	redeemRocketLauncher.hidden = [HyperlootManager.shared hasItem:HLTokenItemTypeRocketLauncher] == NO;
+	redeemQuad.hidden = [HyperlootManager.shared hasItem:HLTokenItemTypeQuadDamage] == NO;
+	redeemInvisibility.hidden = [HyperlootManager.shared hasItem:HLTokenItemTypeInvisibility] == NO;
+}
+
 - (void)_showInGameView
 {
     joypadCap0.hidden = NO;
     joypadCap1.hidden = NO;
 	escapeButton.hidden = NO;
+	walletAddressButton.hidden = NO;
+	redeemItemsContainerView.hidden = NO;
+	
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateWalletInformation) name:kTestWalletUpdateNotification object:nil];
+	[self updateWalletInformation];
 }
 
 - (void)_hideView
@@ -116,6 +129,10 @@
     joypadCap0.hidden = YES;
     joypadCap1.hidden = YES;
 	escapeButton.hidden = YES;
+	walletAddressButton.hidden = YES;
+	redeemItemsContainerView.hidden = YES;
+	
+	[[NSNotificationCenter defaultCenter] removeObserver:self name:kTestWalletUpdateNotification object:nil];
 }
 
 - (void)_mainGameLoop
@@ -206,24 +223,22 @@
 	[super dealloc];
 }
 
-- (void)awakeFromNib {
-	[super awakeFromNib];
+- (void)createJoypads {
+	int i;
+	CGRect joypadCapFrame;
 	
-    int i;
-    CGRect joypadCapFrame;
-
-    for (i = 0; i < NUM_JOYPADS; i++)
-    {
-        // Joypad caps
-        if (i == 0) joypadCapFrame = [joypadCap0 frame];
-        else joypadCapFrame = [joypadCap1 frame];
-
-        Joypad[i].joypadArea = CGRectMake(CGRectGetMinX(joypadCapFrame),
-                                          CGRectGetMinY(joypadCapFrame), 250, 250);
-        Joypad[i].joypadCenterx = CGRectGetMidX(joypadCapFrame);
-        Joypad[i].joypadCentery = CGRectGetMidY(joypadCapFrame);
-        Joypad[i].joypadMaxRadius = 60;
-    }
+	for (i = 0; i < NUM_JOYPADS; i++)
+	{
+		// Joypad caps
+		if (i == 0) joypadCapFrame = [joypadCap0 frame];
+		else joypadCapFrame = [joypadCap1 frame];
+		
+		Joypad[i].joypadArea = CGRectMake(CGRectGetMinX(joypadCapFrame),
+										  CGRectGetMinY(joypadCapFrame), 250, 250);
+		Joypad[i].joypadCenterx = CGRectGetMidX(joypadCapFrame);
+		Joypad[i].joypadCentery = CGRectGetMidY(joypadCapFrame);
+		Joypad[i].joypadMaxRadius = 60;
+	}
 }
 
 - (BOOL)_createSurface
@@ -252,6 +267,8 @@
 		_mouseScale.x = (480 * aspect) / _size.height;
 		_mouseScale.y = 480 / _size.width;
 	}
+	
+	[self createJoypads];
 
 	qglGetIntegerv(GL_RENDERBUFFER_BINDING_OES, &oldRenderBuffer);
 	qglGetIntegerv(GL_FRAMEBUFFER_BINDING_OES, &oldFrameBuffer);
@@ -375,6 +392,9 @@
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+	
+	NSInteger numberOfJoypadsActive = 0;
+	
     for (UITouch *touch in touches) {
 		if (Key_GetCatcher() & KEYCATCH_UI) {
 			if (_numTouches == 0) {
@@ -389,6 +409,7 @@
 				if (CGRectContainsPoint(Joypad[i].joypadArea, touchLocation) &&
 					!Joypad[i].isJoypadMoving)
 				{
+					numberOfJoypadsActive++;
 					Joypad[i].isJoypadMoving = YES;
 					Joypad[i].joypadTouchHash = [touch hash];
 					if (i != 0) _isLooking = YES;
@@ -396,6 +417,10 @@
 			}
 		}
     }
+	
+	if (numberOfJoypadsActive < touches.allObjects.count) {
+		[self startShooting:self];
+	}
 }
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
@@ -465,6 +490,7 @@
 				}
 			}
 		}
+		[self stopShooting:self];
 	}
 }
 
@@ -536,6 +562,17 @@
 {
 	CL_KeyEvent(K_ENTER, 1, Sys_Milliseconds());
 	CL_KeyEvent(K_ENTER, 0, Sys_Milliseconds());
+}
+
+- (IBAction)copyWalletAddress:(id)sender {
+	NSString* address = [HyperlootManager shared].walletAddress;
+	if (address.length > 0) {
+		[[UIPasteboard generalPasteboard] setString: address];
+	}
+}
+
+- (IBAction)redeemItems:(UIButton*)sender {
+	[HyperlootManager.shared redeemItem:(HLTokenItemType)sender.tag];
 }
 
 @end

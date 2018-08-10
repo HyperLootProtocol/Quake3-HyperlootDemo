@@ -6,12 +6,18 @@
 
 #import	"Quake3AppDelegate.h"
 #import "MainViewController.h"
+#import "HyperlootManager.h"
 
 @implementation Quake3AppDelegate
 
 @synthesize window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+	
+	[[HyperlootManager shared] launchWithCompletion:^(NSString * address) {
+		NSLog(@"%@", address);
+	}];
+	
     return YES;
 }
 

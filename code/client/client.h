@@ -21,6 +21,10 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 // client.h -- primary header for client
 
+#ifndef __CLIENT_H
+#define __CLIENT_H
+
+
 #include "../qcommon/q_shared.h"
 #include "../qcommon/qcommon.h"
 #include "../renderercommon/tr_public.h"
@@ -360,8 +364,8 @@ extern	char		cl_oldGame[MAX_QPATH];
 extern	qboolean	cl_oldGameSet;
 
 #ifdef IOS
-int cl_joyscale_x[2];
-int cl_joyscale_y[2];
+extern int cl_joyscale_x[2];
+extern int cl_joyscale_y[2];
 #endif
 //=============================================================================
 
@@ -638,4 +642,6 @@ qboolean CL_VideoRecording( void );
 // cl_main.c
 //
 void CL_WriteDemoMessage ( msg_t *msg, int headerBytes );
+
+#endif
 

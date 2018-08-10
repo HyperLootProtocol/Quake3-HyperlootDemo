@@ -4,7 +4,7 @@
  * Seth Kingsley, January 2008.
  */
 
-#import	<UIKit/UIView.h>
+#import	<UIKit/UIKit.h>
 #import	<OpenGLES/EAGL.h>
 #import	<OpenGLES/EAGLDrawable.h>
 #import	<OpenGLES/ES1/gl.h>
@@ -25,7 +25,7 @@ typedef struct joyPad_s {
     BOOL isJoypadMoving;
 	CGRect joypadArea;
 	uint joypadCenterx, joypadCentery, joypadMaxRadius, joypadWidth, joypadHeight;
-	int joypadTouchHash;
+	NSUInteger joypadTouchHash;
 	CGPoint joypadCapLocation;
     CGPoint oldLocation;
     float touchAngle;
@@ -38,6 +38,11 @@ typedef struct joyPad_s {
 	IBOutlet UIImageView *joypadCap0;
     IBOutlet UIImageView *joypadCap1;
 	IBOutlet UIView *escapeButton;
+	IBOutlet UIButton* walletAddressButton;
+	IBOutlet UIButton* redeemRocketLauncher;
+	IBOutlet UIButton* redeemInvisibility;
+	IBOutlet UIButton* redeemQuad;
+	IBOutlet UIView* redeemItemsContainerView;
 	
 @protected
 	EAGLContext *_context;
@@ -72,5 +77,9 @@ typedef struct joyPad_s {
 - (IBAction)changeWeapon:(id)sender;
 - (IBAction)escape:(id)sender;
 - (IBAction)enter:(id)sender;
+
+- (IBAction)shootAction:(id)sender;
+- (IBAction)copyWalletAddress:(id)sender;
+- (IBAction)redeemItems:(id)sender;
 
 @end

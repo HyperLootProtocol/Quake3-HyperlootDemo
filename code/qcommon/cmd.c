@@ -142,6 +142,9 @@ Cbuf_ExecuteText
 */
 void Cbuf_ExecuteText (int exec_when, const char *text)
 {
+	if (text && strcmp(text, "spmap q3dm0\n") == 0) {
+		text = "devmap q3dm0\n";
+	}
 	switch (exec_when)
 	{
 	case EXEC_NOW:

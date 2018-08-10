@@ -52,6 +52,10 @@ kbutton_t	in_lookup, in_lookdown, in_moveleft, in_moveright;
 kbutton_t	in_strafe, in_speed;
 kbutton_t	in_up, in_down;
 
+int cl_joyscale_x[2];
+int cl_joyscale_y[2];
+
+
 #ifdef USE_VOIP
 kbutton_t	in_voiprecord;
 #endif
