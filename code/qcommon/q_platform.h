@@ -184,8 +184,28 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 #define ID_INLINE inline
 #define PATH_SEP '/'
 
+#ifdef idx64
+#undef idx64
+#endif
+#define idx64 0
+
+
 #if defined __arm__
 #define ARCH_STRING "__arm__"
+#define Q3_LITTLE_ENDIAN
+#endif
+
+//#if defined __arm64__
+//#undef idx64
+//#define idx64 0
+//#define ARCH_STRING "__arm64__"
+//#define Q3_LITTLE_ENDIAN
+//#endif
+
+#if defined __ARM_ARCH_ISA_A64
+#undef idx64
+#define idx64 0
+#define ARCH_STRING "__ARM_ARCH_ISA_A64"
 #define Q3_LITTLE_ENDIAN
 #endif
 
@@ -231,6 +251,10 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 #define ARCH_STRING "sparc"
 #elif defined __arm__
 #define ARCH_STRING "arm"
+#elif defined __arm64__
+#undef idx64
+#define idx64 0
+#define ARCH_STRING "arm64"
 #elif defined __cris__
 #define ARCH_STRING "cris"
 #elif defined __hppa__
