@@ -38,11 +38,7 @@ typedef struct joyPad_s {
 	IBOutlet UIImageView *joypadCap0;
     IBOutlet UIImageView *joypadCap1;
 	IBOutlet UIView *escapeButton;
-	IBOutlet UIButton* walletAddressButton;
-	IBOutlet UIButton* redeemRocketLauncher;
-	IBOutlet UIButton* redeemInvisibility;
-	IBOutlet UIButton* redeemQuad;
-	IBOutlet UIView* redeemItemsContainerView;
+	IBOutlet UIView *hyperlootGUIContainerView;
 	
 @protected
 	EAGLContext *_context;
@@ -69,6 +65,9 @@ typedef struct joyPad_s {
 @property (assign, readonly, nonatomic) NSUInteger numColorBits;
 @property (assign, readonly, nonatomic) NSUInteger numDepthBits;
 @property (assign, readonly, nonatomic) EAGLContext *context;
+
+@property (nonatomic, readonly) UIView* hyperlootGUIContainerView;
+
 - (void)swapBuffers;
 - (IBAction)startJumping:(id)sender;
 - (IBAction)stopJumping:(id)sender;

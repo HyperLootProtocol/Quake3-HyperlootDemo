@@ -24,6 +24,9 @@ public class HyperlootDemo: NSObject {
     private var balanceTimer = HyperlootTimer()
     
     private var session: HyperlootSession?
+	
+	@objc
+	public private(set) var walletName: String = ""
     
     private override init() {
         let sharedMigration = SharedMigrationInitializer()
@@ -39,13 +42,16 @@ public class HyperlootDemo: NSObject {
         balanceTimer.stop()
     }
 	
+	
 	@objc
-    public func reset() {
+    public func reset(completion: @escaping ((String) -> Void)) {
         walletProvider.deleteWallet { [weak self] in
             self?.walletProvider.createNewWallet(completion: { [weak self] (walletInfo, error) in
                 if let walletInfo = walletInfo, error == nil {
                     self?.createSession(account: walletInfo, delegate: self?.delegate)
                 }
+				let address: String = walletInfo?.address.eip55String ?? ""
+				completion(address)
             })
         }
     }
@@ -63,6 +69,9 @@ public class HyperlootDemo: NSObject {
     }
     
     private func createSession(account: WalletInfo, delegate: WalletUpdatesDelegate?) {
+		
+		walletName = account.info.name
+		
         let session = HyperlootSession(account: account)
         session.delegate = delegate
         session.update()

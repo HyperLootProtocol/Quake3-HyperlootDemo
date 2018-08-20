@@ -11,6 +11,8 @@
 #include "../renderergl1/tr_local.h"
 #include "../client/client.h"
 
+#import "HyperlootGUIView.h"
+
 enum
 {
     Q3App_ErrorTag,
@@ -249,7 +251,20 @@ static const long long kDemoPakFileSize = 46853694;
 	_screenView.hidden =  NO;
 	Cmd_ExecuteString("exec default.cfg\n");
 	
+	[self loadHyperlootGUI];
+	
 	[self _startRunning];
+}
+
+- (void)loadHyperlootGUI {
+	HyperlootGUIView* view = [HyperlootGUIView guiView];
+	[_screenView.hyperlootGUIContainerView addSubview:view];
+	
+	CGRect frame = CGRectZero;
+	frame.size = _screenView.frame.size;
+	view.frame = frame;
+	
+	[view start];
 }
 
 - (void)applicationDidFinishLaunching:(id)unused

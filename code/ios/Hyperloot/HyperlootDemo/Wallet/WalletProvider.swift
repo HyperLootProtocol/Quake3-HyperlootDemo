@@ -35,7 +35,9 @@ class WalletProvider {
                     }
                     let w = Wallet(type: .hd(account))
                     let wallet = WalletInfo(wallet: w, info: WalletObject.from(w))
-                    let initialName = "Wallet #\(strongSelf.keystore.wallets.count)"
+					let names = ["Freeman", "JohnDoe", "SuperMario", "TheNameless", "Faceless", "Crusher"]
+					let index = arc4random_uniform((UInt32)(names.count))
+                    let initialName = names[(Int)(index)]
                     strongSelf.keystore.store(object: wallet.info, fields: [.name(initialName)])
                     completion(wallet, nil)
                 }

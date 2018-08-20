@@ -42,8 +42,13 @@ class HyperlootSession {
     lazy var tokens: Results<TokenObject> = {
         return tokensStore.tokens
     } ()
+	
+	lazy var transactions: Results<Transaction> = {
+		return transactionsStorage.transactions
+	} ()
     
     var tokensObserver: NotificationToken?
+	var transactionsObserver: NotificationToken?
     
     public weak var delegate: WalletUpdatesDelegate?
     
@@ -63,6 +68,7 @@ class HyperlootSession {
         transactionsStorage.removeTransactions(for: [.failed, .unknown])
         
         startObservingTokenUpdates()
+		startObservingTransactions()
     }
     
     func startObservingTokenUpdates() {
@@ -80,6 +86,20 @@ class HyperlootSession {
             strongSelf.delegate?.update(balances: balances)
         }
     }
+	
+	func startObservingTransactions() {
+		transactionsObserver = transactions.observe { [weak self] (_) in
+			guard let strongSelf = self else {
+				return
+			}
+			
+			var transactions: [HyperlootTransaction] = []
+			strongSelf.transactionsStorage.completedObjects.forEach {
+				transactions.append(HyperlootTransaction(transactionHash: $0.id, from: $0.from, to: $0.to, value: $0.value))
+			}
+			strongSelf.delegate?.update(transactions: transactions)
+		}
+	}
     
     private func realm(for config: Realm.Configuration) -> Realm {
         return try! Realm(configuration: config)
@@ -89,7 +109,7 @@ class HyperlootSession {
         let address = account.address
         firstly {
             tokensNetwork.tokensList(for: address)
-            }.done { [weak self] tokens in
+			}.done { [weak self] tokens in
                 self?.tokensStore.update(tokens: tokens, action: .updateInfo)
             }.catch { error in
                 NSLog("tokensInfo \(error)")
@@ -106,5 +126,16 @@ class HyperlootSession {
         
         let balancesOperations = Array(tokens.lazy.map { TokenBalanceOperation(network: self.tokensNetwork, address: $0.address, store: self.tokensStore) })
         operationQueue.addOperations(balancesOperations, waitUntilFinished: false)
+		
+		fetchTransactions(for: tokens)
     }
+	
+	private func fetchTransactions(for tokens: [TokenObject]) {
+		tokens.forEach { [weak self] in
+			tokensNetwork.transactions(for: account.address, startBlock: 1, page: 0, contract: $0.contract) { result in
+				guard let transactions = result.0 else { return }
+				self?.transactionsStorage.add(transactions)
+			}
+		}
+	}
 }

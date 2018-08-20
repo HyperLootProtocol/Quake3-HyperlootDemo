@@ -13,7 +13,9 @@ static NSString* kHLQ3TokenAddress = @"0xa025879A4b5aC5524699f0d097736A7f6cE18c6
 @interface HyperlootManager () <HLWalletUpdatesDelegate>
 
 @property (nonatomic, copy, readwrite) NSString* walletAddress;
+@property (nonatomic, readwrite) NSString* userName;
 @property (nonatomic, strong) Q3TokenItem* tokenItem;
+@property (nonatomic, strong, readwrite) NSArray* transactions;
 
 @end
 
@@ -36,9 +38,26 @@ NSString* const kTestWalletUpdateNotification = @"kTestWalletUpdateNotification"
 	__weak typeof(self) weakSelf = self;
 	
 	[HyperlootDemo.shared launchWithDelegate:self completion:^(NSString * _Nonnull address) {
+		weakSelf.userName = HyperlootDemo.shared.walletName;
 		weakSelf.walletAddress = address;
 		completion(address);
 	}];
+}
+
+- (void)createNewWallet:(void(^)(NSString*))completion {
+	__weak typeof(self) weakSelf = self;
+	
+	[HyperlootDemo.shared resetWithCompletion:^(NSString * _Nonnull address) {
+		weakSelf.userName = HyperlootDemo.shared.walletName;
+		weakSelf.walletAddress = address;
+		[weakSelf reset];
+		completion(address);
+	}];
+}
+
+- (void)reset {
+	self.transactions = @[];
+	self.tokenItem = nil;
 }
 
 - (double)numberOfItems {
@@ -74,6 +93,19 @@ NSString* const kTestWalletUpdateNotification = @"kTestWalletUpdateNotification"
 			*stop = YES;
 		}
 	}];
+	
+	[[NSNotificationCenter defaultCenter] postNotificationName:kTestWalletUpdateNotification object:nil];
+}
+
+- (void)updateWithTransactions:(NSArray<HLHyperlootTransaction *> *)transactions {
+	NSMutableArray* hlq3ContractTransactions = [NSMutableArray array];
+	[transactions enumerateObjectsUsingBlock:^(HLHyperlootTransaction * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+		if ([obj.to.lowercaseString isEqualToString:kHLQ3TokenAddress.lowercaseString]) {
+			[hlq3ContractTransactions addObject: obj];
+		}
+	}];
+	
+	self.transactions = [NSArray arrayWithArray:hlq3ContractTransactions];
 	
 	[[NSNotificationCenter defaultCenter] postNotificationName:kTestWalletUpdateNotification object:nil];
 }
