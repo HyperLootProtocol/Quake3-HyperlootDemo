@@ -28,6 +28,8 @@ static const unsigned short fpucw = 0x0C7F;
  * GNU inline asm ftol conversion functions using SSE or FPU
  */
 
+#if idx64
+
 long qftolsse(float f)
 {
   long retval;
@@ -57,6 +59,8 @@ int qvmftolsse(void)
   
   return retval;
 }
+
+#elif id386
 
 long qftolx87(float f)
 {
@@ -97,3 +101,5 @@ int qvmftolx87(void)
   
   return retval;
 }
+
+#endif

@@ -22,7 +22,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="Quake_III_Arena_Logo.png" id="EBf-he-NtA">
-                                        <rect key="frame" x="20" y="315" width="728" height="326"/>
+                                        <rect key="frame" x="20" y="313" width="728" height="326"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                     </imageView>
@@ -38,7 +38,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <activityIndicatorView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="bottom" animating="YES" style="whiteLarge" id="5LO-sa-B7V">
-                                                <rect key="frame" x="343" y="59" width="37" height="37"/>
+                                                <rect key="frame" x="341" y="59" width="37" height="37"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                             </activityIndicatorView>
                                             <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Label" lineBreakMode="middleTruncation" minimumFontSize="10" id="FKK-pe-XFR">
@@ -62,7 +62,7 @@
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" minimumFontSize="7" id="9HQ-Af-ThY">
-                                        <rect key="frame" x="18" y="952" width="730" height="59"/>
+                                        <rect key="frame" x="16" y="952" width="732" height="59"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                         <string key="text">Quake III Arena © 1999 by id Software
 iOS port by Seth Kingsley, control system designed by Alexander Pick.</string>
@@ -101,49 +101,9 @@ iOS port by Seth Kingsley, control system designed by Alexander Pick.</string>
                                             <action selector="escape:" destination="6ON-H4-1sU" eventType="touchDown" id="Qjc-Xc-8b0"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" id="pgT-Qn-xSY">
-                                        <rect key="frame" x="17" y="13" width="153" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Address: PlayerName">
-                                            <color key="titleColor" red="1" green="0.53242187500000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="copyWalletAddress:" destination="6ON-H4-1sU" eventType="touchUpInside" id="Umq-9x-reC"/>
-                                        </connections>
-                                    </button>
-                                    <view contentMode="scaleToFill" misplaced="YES" id="mWj-Xc-NzZ">
-                                        <rect key="frame" x="178" y="6" width="340" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hh6-4q-C7y">
-                                                <rect key="frame" x="0.0" y="0.0" width="124" height="44"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES"/>
-                                                <state key="normal" title="Rocket Launcher">
-                                                    <color key="titleColor" red="0.99815848214285718" green="0.15267857142857144" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="redeemItems:" destination="6ON-H4-1sU" eventType="touchUpInside" id="mro-cC-9vF"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" tag="2" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LK2-sQ-5er">
-                                                <rect key="frame" x="248" y="0.0" width="92" height="44"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" heightSizable="YES"/>
-                                                <state key="normal" title="Invisibility"/>
-                                                <connections>
-                                                    <action selector="redeemItems:" destination="6ON-H4-1sU" eventType="touchUpInside" id="X9p-yl-Ub8"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pb8-Mw-hCE">
-                                                <rect key="frame" x="142" y="0.0" width="98" height="44"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
-                                                <state key="normal" title="Quad Damage">
-                                                    <color key="titleColor" red="0.70192522321428574" green="0.15267857142857144" blue="0.39768415178571431" alpha="1" colorSpace="calibratedRGB"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="redeemItems:" destination="6ON-H4-1sU" eventType="touchUpInside" id="zzi-Lb-rKu"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
+                                    <view contentMode="scaleToFill" misplaced="YES" id="qrD-kq-cZ0">
+                                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
                                 </subviews>
@@ -151,13 +111,9 @@ iOS port by Seth Kingsley, control system designed by Alexander Pick.</string>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outlet property="escapeButton" destination="Fzl-pD-7hJ" id="tPu-Jy-Ltk"/>
+                                    <outlet property="hyperlootGUIContainerView" destination="qrD-kq-cZ0" id="Kne-ZV-Cgq"/>
                                     <outlet property="joypadCap0" destination="lYp-PN-OnZ" id="o8g-2B-zqR"/>
                                     <outlet property="joypadCap1" destination="R2k-xx-hgU" id="5cS-19-9mX"/>
-                                    <outlet property="redeemInvisibility" destination="LK2-sQ-5er" id="XfD-Ub-Ndf"/>
-                                    <outlet property="redeemItemsContainerView" destination="mWj-Xc-NzZ" id="TEH-To-WVu"/>
-                                    <outlet property="redeemQuad" destination="pb8-Mw-hCE" id="tFI-FM-bgp"/>
-                                    <outlet property="redeemRocketLauncher" destination="hh6-4q-C7y" id="6Fl-qp-GCT"/>
-                                    <outlet property="walletAddressButton" destination="pgT-Qn-xSY" id="d6P-Lw-qgB"/>
                                 </connections>
                             </view>
                         </subviews>

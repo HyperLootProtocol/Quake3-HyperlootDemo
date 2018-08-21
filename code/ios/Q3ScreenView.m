@@ -24,6 +24,8 @@
 
 @implementation Q3ScreenView
 
+@synthesize hyperlootGUIContainerView;
+
 + (Class)layerClass
 {
 	return [CAEAGLLayer class];
@@ -106,33 +108,20 @@
     }
 }
 
-- (void)updateWalletInformation {
-	redeemRocketLauncher.hidden = [HyperlootManager.shared hasItem:HLTokenItemTypeRocketLauncher] == NO;
-	redeemQuad.hidden = [HyperlootManager.shared hasItem:HLTokenItemTypeQuadDamage] == NO;
-	redeemInvisibility.hidden = [HyperlootManager.shared hasItem:HLTokenItemTypeInvisibility] == NO;
-}
-
 - (void)_showInGameView
 {
     joypadCap0.hidden = NO;
     joypadCap1.hidden = NO;
 	escapeButton.hidden = NO;
-	walletAddressButton.hidden = NO;
-	redeemItemsContainerView.hidden = NO;
-	
-	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateWalletInformation) name:kTestWalletUpdateNotification object:nil];
-	[self updateWalletInformation];
+	hyperlootGUIContainerView.hidden = NO;
 }
 
 - (void)_hideView
 {
+	hyperlootGUIContainerView.hidden = YES;
     joypadCap0.hidden = YES;
     joypadCap1.hidden = YES;
 	escapeButton.hidden = YES;
-	walletAddressButton.hidden = YES;
-	redeemItemsContainerView.hidden = YES;
-	
-	[[NSNotificationCenter defaultCenter] removeObserver:self name:kTestWalletUpdateNotification object:nil];
 }
 
 - (void)_mainGameLoop
@@ -562,17 +551,6 @@
 {
 	CL_KeyEvent(K_ENTER, 1, Sys_Milliseconds());
 	CL_KeyEvent(K_ENTER, 0, Sys_Milliseconds());
-}
-
-- (IBAction)copyWalletAddress:(id)sender {
-	NSString* address = [HyperlootManager shared].walletAddress;
-	if (address.length > 0) {
-		[[UIPasteboard generalPasteboard] setString: address];
-	}
-}
-
-- (IBAction)redeemItems:(UIButton*)sender {
-	[HyperlootManager.shared redeemItem:(HLTokenItemType)sender.tag];
 }
 
 @end
